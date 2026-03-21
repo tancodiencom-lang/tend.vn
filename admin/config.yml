@@ -1,29 +1,19 @@
-# ═══════════════════════════════════════
-# tenD — Sveltia CMS Configuration
-# ═══════════════════════════════════════
-# Sau khi tạo GitHub repo, thay đổi:
-#   1. repo: YOUR_GITHUB_USERNAME/tend-website
-#   2. base_url: URL của OAuth proxy (Cloudflare Worker)
-
 backend:
   name: github
-  repo: tancodiencom-lang/tend.vn   # ← ĐỔI THÀNH REPO CỦA BẠN
+  repo: tancodiencom-lang/tend.vn
   branch: main
-  auth_type: token
+  base_url: https://sveltia-cms-auth.xxx.workers.dev
 
-# Media / Ảnh
 media_folder: "images"
 public_folder: "/images"
 
-# Slug settings
 slug:
   encoding: "unicode"
   clean_accents: true
 
-# ═══ COLLECTIONS ═══
 collections:
 
-  # ── THÔNG TIN DOANH NGHIỆP ──
+  # ── CÀI ĐẶT CHUNG ──
   - name: "settings"
     label: "⚙️ Cài đặt chung"
     files:
@@ -31,18 +21,61 @@ collections:
         label: "Thông tin công ty"
         file: "data/company.json"
         fields:
-          - { label: "Tên công ty", name: "company_name", widget: "string", default: "Công ty TNHH Tân Cổ Điển" }
-          - { label: "Thương hiệu", name: "brand_name", widget: "string", default: "tenD" }
-          - { label: "Hotline", name: "hotline", widget: "string", default: "0973.858.666" }
-          - { label: "Email", name: "email", widget: "string", default: "info@tenD.vn" }
-          - { label: "Website", name: "website", widget: "string", default: "tenD.vn" }
-          - { label: "Địa chỉ VP", name: "office_address", widget: "string", default: "Tòa nhà CDS, 477 Minh Khai, Hai Bà Trưng, Hà Nội" }
-          - { label: "Địa chỉ xưởng", name: "factory_address", widget: "string", default: "KCN Apec, Đa Hội, Từ Sơn, Bắc Ninh" }
-          - { label: "Giờ làm việc", name: "working_hours", widget: "string", default: "8:00–18:00 · Thứ 2 – Thứ 7" }
-          - { label: "Zalo link", name: "zalo_link", widget: "string", default: "https://zalo.me/0973858666" }
-          - { label: "Slogan", name: "slogan", widget: "string", default: "Wake up your property." }
+          - { label: "Tên công ty", name: "company_name", widget: "string" }
+          - { label: "Thương hiệu", name: "brand_name", widget: "string" }
+          - { label: "Hotline", name: "hotline", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Website", name: "website", widget: "string" }
+          - { label: "Địa chỉ VP", name: "office_address", widget: "string" }
+          - { label: "Địa chỉ xưởng", name: "factory_address", widget: "string" }
+          - { label: "Giờ làm việc", name: "working_hours", widget: "string" }
+          - { label: "Zalo link", name: "zalo_link", widget: "string" }
+          - { label: "Slogan", name: "slogan", widget: "string" }
 
-  # ── DỰ ÁN / PORTFOLIO ──
+  # ── NỘI DUNG TRANG ──
+  - name: "pages"
+    label: "📄 Nội dung trang"
+    files:
+      - name: "homepage"
+        label: "Trang chủ"
+        file: "data/homepage.json"
+        fields:
+          - { label: "Hero Question", name: "hero_question", widget: "string" }
+          - { label: "Hero Sub", name: "hero_sub", widget: "text" }
+          - { label: "S6 CTA Title", name: "s6_title", widget: "string" }
+          - { label: "S6 CTA Sub", name: "s6_sub", widget: "text" }
+
+      - name: "about"
+        label: "Về tenD"
+        file: "data/about.json"
+        fields:
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Body", name: "hero_body", widget: "text" }
+          - { label: "Pull Quote", name: "pull_quote", widget: "text" }
+          - label: "Giá trị cốt lõi"
+            name: "values"
+            widget: "list"
+            max: 3
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Mô tả", name: "body", widget: "text" }
+
+  # ── DỊCH VỤ ──
+  - name: "services"
+    label: "🔧 Dịch vụ"
+    label_singular: "Dịch vụ"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Số thứ tự", name: "number", widget: "string" }
+      - { label: "Tên dịch vụ", name: "title", widget: "string" }
+      - { label: "Slug URL", name: "slug", widget: "string" }
+      - { label: "Mô tả ngắn", name: "subtitle", widget: "text" }
+      - { label: "Nội dung chi tiết", name: "body", widget: "markdown", required: false }
+
+  # ── DỰ ÁN ──
   - name: "projects"
     label: "🏠 Dự án"
     label_singular: "Dự án"
@@ -57,17 +90,17 @@ collections:
       - { label: "Diện tích (m²)", name: "area", widget: "number" }
       - { label: "Số phòng ngủ", name: "bedrooms", widget: "string" }
       - { label: "Phong cách", name: "style", widget: "select", options: ["Japandi", "Hiện đại", "Scandinavian", "Luxury", "Wabi-sabi", "Indochine", "Tân cổ điển"] }
-      - { label: "Loại hình", name: "property_type", widget: "select", options: ["Chung cư", "Biệt thự", "Liền kề", "Shophouse"], default: "Chung cư" }
+      - { label: "Loại hình", name: "property_type", widget: "select", options: ["Chung cư", "Biệt thự", "Liền kề", "Shophouse"] }
       - { label: "Thời gian thi công (ngày)", name: "duration", widget: "number", required: false }
       - { label: "Năm hoàn thiện", name: "year", widget: "number" }
-      - { label: "Mục đích", name: "purpose", widget: "select", options: ["Để ở", "Cho thuê", "Ở + cho thuê"], default: "Ở + cho thuê" }
+      - { label: "Mục đích", name: "purpose", widget: "select", options: ["Để ở", "Cho thuê", "Ở + cho thuê"] }
       - { label: "Giá thuê (triệu/tháng)", name: "rental_price", widget: "number", required: false }
       - { label: "Ảnh đại diện", name: "thumbnail", widget: "image", required: false }
       - { label: "Gallery ảnh", name: "gallery", widget: "list", required: false, field: { label: "Ảnh", name: "image", widget: "image" } }
-      - { label: "Câu chuyện dự án", name: "story", widget: "markdown", required: false }
+      - { label: "Câu chuyện dự án", name: "body", widget: "markdown", required: false }
       - { label: "Hiển thị", name: "visible", widget: "boolean", default: true }
 
-  # ── BLOG - CHUNG CƯ ──
+  # ── BLOG CHUNG CƯ ──
   - name: "blog_apartment"
     label: "📝 Blog Chung cư"
     label_singular: "Bài viết"
@@ -84,9 +117,8 @@ collections:
       - { label: "Ảnh đại diện", name: "thumbnail", widget: "image", required: false }
       - { label: "Mô tả ngắn", name: "excerpt", widget: "text" }
       - { label: "Nội dung", name: "body", widget: "markdown" }
-      - { label: "Bài liên quan", name: "related", widget: "list", required: false, field: { label: "Slug bài", name: "slug", widget: "string" } }
 
-  # ── BLOG - BIỆT THỰ ──
+  # ── BLOG BIỆT THỰ ──
   - name: "blog_villa"
     label: "📝 Blog Biệt thự"
     label_singular: "Bài viết"
@@ -103,32 +135,15 @@ collections:
       - { label: "Mô tả ngắn", name: "excerpt", widget: "text" }
       - { label: "Nội dung", name: "body", widget: "markdown" }
 
-  # ── NỘI DUNG TRANG CHỦ ──
-  - name: "pages"
-    label: "📄 Nội dung trang"
-    files:
-      - name: "homepage"
-        label: "Trang chủ"
-        file: "data/homepage.json"
-        fields:
-          - { label: "Hero Question", name: "hero_question", widget: "string", default: "Đã bao lâu rồi bạn chưa ghé căn nhà của mình ở Vinhomes?" }
-          - { label: "Hero Sub", name: "hero_sub", widget: "text" }
-          - { label: "S6 CTA Title", name: "s6_title", widget: "string", default: "Căn nhà của bạn đã chờ đủ lâu rồi." }
-          - { label: "S6 CTA Sub", name: "s6_sub", widget: "text" }
-
-      - name: "about"
-        label: "Về tenD"
-        file: "data/about.json"
-        fields:
-          - { label: "Hero Title", name: "hero_title", widget: "string" }
-          - { label: "Hero Body", name: "hero_body", widget: "text" }
-          - { label: "Câu chuyện", name: "story", widget: "markdown" }
-          - { label: "Pull Quote", name: "pull_quote", widget: "text" }
-          - label: "Giá trị cốt lõi"
-            name: "values"
-            widget: "list"
-            max: 3
-            fields:
-              - { label: "Icon", name: "icon", widget: "string" }
-              - { label: "Tiêu đề", name: "title", widget: "string" }
-              - { label: "Mô tả", name: "body", widget: "text" }
+  # ── TRANG PHÁP LÝ ──
+  - name: "legal"
+    label: "⚖️ Pháp lý"
+    label_singular: "Trang"
+    folder: "content/pages"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Cập nhật lần cuối", name: "last_updated", widget: "string" }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
