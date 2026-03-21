@@ -770,6 +770,51 @@ p.body-text.light{color:var(--stone);}
 }
 
 
+
+
+/* ═══ COMPREHENSIVE RESPONSIVE FIXES ═══ */
+@media(max-width:900px){
+  .grid-3{grid-template-columns:1fr 1fr;}
+  .blog-body{padding:40px 24px;}
+  .blog-hero{padding:80px 24px 60px;}
+  .article-header{padding:80px 24px 60px;}
+  .article-body{padding:40px 24px 60px;}
+  .related{padding:40px 24px;}
+  .sc-commitment,.sc-faq{margin-top:24px;}
+  .portfolio-filters{flex-wrap:wrap;gap:8px;padding:0 24px;}
+  .project-detail{padding:0 24px !important;}
+  .featured-card{grid-template-columns:1fr;}
+  .fc-thumb{height:220px;}
+}
+@media(max-width:600px){
+  .grid-3,.grid-2{grid-template-columns:1fr;}
+  .blog-hero,.blog-body,.article-header,.article-body,.related{padding-left:16px;padding-right:16px;}
+  .blog-hero{padding-top:70px;padding-bottom:50px;}
+  .bh-title{font-size:32px;}
+  .page-hero{padding:70px 16px 50px !important;}
+  .ph-title{font-size:36px !important;}
+  .about-story{padding:40px 16px;}
+  .about-story-inner{gap:32px;}
+  .values-section{padding:40px 16px;}
+  .section{padding-left:16px;padding-right:16px;}
+  .portfolio-filters{justify-content:flex-start;padding:0 16px;}
+  .filter-btn{font-size:10px;padding:6px 12px;}
+  .portfolio-masonry{gap:4px;}
+  .pi-name{font-size:16px;}
+  .service-content{gap:32px;}
+  .sc-main h3{font-size:20px;}
+  .timeline .tl-item{padding-left:14px;margin-left:12px;}
+  .project-detail{grid-template-columns:1fr !important;gap:32px !important;padding:0 16px !important;}
+  .container{padding:0 16px;}
+  .svc-row{flex-direction:column;align-items:flex-start;gap:6px;}
+  .svc-name{min-width:auto;}
+  .article-cta{padding:24px 16px;}
+  .featured-villa{margin-bottom:12px;}
+  .card-body{padding:14px;}
+  .card-title{font-size:15px;}
+  .related-grid{grid-template-columns:1fr;}
+}
+
 /* === SPA NAVIGATION === */
 .page-view{display:none;}
 .page-view.active{display:block;}
@@ -1213,22 +1258,22 @@ body{font-family:'DM Sans',sans-serif;color:var(--ebony);background:var(--white)
     </div>
 
     <div class="s3-services r d2">
-      <div class="svc-row">
+      <div class="svc-row" onclick="navigateTo('svc-thu-tuc')" style="cursor:pointer;">
         <div class="svc-num">01</div>
         <div class="svc-name">Thủ tục Vinhomes</div>
         <div class="svc-desc">Xử lý toàn bộ hồ sơ xin phép. Bạn không cần đến một lần nào.</div>
       </div>
-      <div class="svc-row">
+      <div class="svc-row" onclick="navigateTo('svc-thiet-ke')" style="cursor:pointer;">
         <div class="svc-num">02</div>
         <div class="svc-name">Thiết kế nội thất</div>
         <div class="svc-desc">Tư vấn phong cách, 3D phối cảnh, duyệt vật liệu mẫu thật trước khi thi công.</div>
       </div>
-      <div class="svc-row">
+      <div class="svc-row" onclick="navigateTo('svc-thi-cong')" style="cursor:pointer;">
         <div class="svc-num">03</div>
         <div class="svc-name">Thi công & Giám sát</div>
         <div class="svc-desc">Tiến độ cam kết trong hợp đồng. Ảnh tiến độ mỗi tuần qua Zalo.</div>
       </div>
-      <div class="svc-row">
+      <div class="svc-row" onclick="navigateTo('svc-ban-giao')" style="cursor:pointer;">
         <div class="svc-num">04</div>
         <div class="svc-name">Bàn giao & Kích hoạt</div>
         <div class="svc-desc">Bàn giao hoàn thiện + hỗ trợ chụp ảnh, tư vấn giá thuê thị trường.</div>
@@ -1648,7 +1693,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--ebony);background:var(--white)
     </div>
 
     <div class="portfolio-masonry">
-      <div class="portfolio-item" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
+      <div class="portfolio-item" data-style="Japandi" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
         <div class="pi-thumb" style="background:linear-gradient(150deg,#2A2420,#1A1714);">
           <div class="pi-overlay"></div>
           <div class="pi-info">
@@ -1660,7 +1705,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--ebony);background:var(--white)
         </div>
       </div>
 
-      <div class="portfolio-item" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
+      <div class="portfolio-item" data-style="Hiện đại" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
         <div class="pi-thumb" style="background:linear-gradient(135deg,#242220,#1A1714);">
           <div class="pi-overlay"></div>
           <div class="pi-info">
@@ -1672,7 +1717,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--ebony);background:var(--white)
         </div>
       </div>
 
-      <div class="portfolio-item" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
+      <div class="portfolio-item" data-style="Scandinavian" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
         <div class="pi-thumb" style="background:linear-gradient(160deg,#222020,#1A1714);">
           <div class="pi-overlay"></div>
           <div class="pi-info">
@@ -1683,7 +1728,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--ebony);background:var(--white)
         </div>
       </div>
 
-      <div class="portfolio-item" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
+      <div class="portfolio-item" data-style="Luxury" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
         <div class="pi-thumb" style="background:linear-gradient(140deg,#282420,#1A1714);">
           <div class="pi-overlay"></div>
           <div class="pi-info">
@@ -1695,7 +1740,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--ebony);background:var(--white)
         </div>
       </div>
 
-      <div class="portfolio-item" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
+      <div class="portfolio-item" data-style="Wabi-sabi" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
         <div class="pi-thumb" style="background:linear-gradient(155deg,#252220,#1A1714);">
           <div class="pi-overlay"></div>
           <div class="pi-info">
@@ -3889,11 +3934,26 @@ window.addEventListener('popstate', function() {
   }
 });
 
-// Filter buttons on portfolio page
+// Portfolio filter functionality
 document.querySelectorAll('.filter-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
     document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
     btn.classList.add('active');
+    
+    var filter = btn.textContent.trim();
+    var items = document.querySelectorAll('.portfolio-item[data-style]');
+    
+    items.forEach(function(item) {
+      if (filter === 'Tất cả' || item.getAttribute('data-style') === filter) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+    
+    // Always show the CTA card (no data-style)
+    var ctaCard = document.querySelector('.portfolio-item:not([data-style])');
+    if (ctaCard) ctaCard.style.display = '';
   });
 });
 

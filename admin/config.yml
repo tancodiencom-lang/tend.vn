@@ -2,7 +2,7 @@ backend:
   name: github
   repo: tancodiencom-lang/tend.vn
   branch: main
-  base_url: https://sveltia-cms-auth.xxx.workers.dev
+  auth_type: token
 
 media_folder: "images"
 public_folder: "/images"
