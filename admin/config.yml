@@ -9,7 +9,7 @@ backend:
   name: github
   repo: tancodiencom-lang/tend.vn   # ← ĐỔI THÀNH REPO CỦA BẠN
   branch: main
-  
+  auth_type: token
 
 # Media / Ảnh
 media_folder: "images"
