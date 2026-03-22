@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://tend.vn/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://tend.vn/#about</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#portfolio</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://tend.vn/#blog</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://tend.vn/#svc-thu-tuc</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#svc-thiet-ke</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#svc-thi-cong</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#svc-ban-giao</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-1</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-2</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-3</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-4</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-5</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-6</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-7</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-b1</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-b2</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-b3</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#article-bai-b4</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://tend.vn/#privacy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://tend.vn/#terms</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+</urlset>
