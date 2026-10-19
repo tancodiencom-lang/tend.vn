@@ -11,6 +11,11 @@ year: 2024
 purpose: "Ở + cho thuê"
 rental_price: 16
 visible: true
+thumbnail: "/images/japandi-living.jpg"
+gallery: 
+  - "/images/japandi-living.jpg"
+  - "/images/bedroom.jpg"
+  - "/images/kitchen.jpg"
 ---
 
 Chủ nhà — anh Hùng, doanh nhân Hà Nội — mua căn 2PN tại Vinhomes Ocean Park như kênh đầu tư. Sau 18 tháng bỏ thô, anh quyết định hoàn thiện để vừa có chỗ về cuối tuần vừa cho thuê.

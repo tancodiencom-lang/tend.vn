@@ -11,4 +11,9 @@ year: 2024
 purpose: "Ở + cho thuê"
 rental_price: 16
 visible: true
+thumbnail: "/images/japandi-living.jpg"
+gallery: 
+  - "/images/japandi-living.jpg"
+  - "/images/bedroom.jpg"
+  - "/images/kitchen.jpg"
 ---
