@@ -1,10 +1,28 @@
 ---
-title: "Thiết kế nội thất biệt thự Vinhomes — những điểm khác hoàn toàn so với chung cư"
-slug: "bai-b3"
+title: Thiết kế nội thất biệt thự Vinhomes — những điểm khác hoàn toàn so với chung cư
+slug: bai-b3
 date: "2024-11-15"
-category: "Thiết kế · Biệt thự"
+category: Thiết kế · Biệt thự
 read_time: 6
 excerpt: ""
+thumbnail: /images/villa.jpg
+inline_image: /images/villa.jpg
+illustrations:
+  - key: image-1
+    image: /images/villa.jpg
+    after_heading: 3. Cầu thang — trung tâm thẩm mỹ của toàn bộ biệt thự
+    alt: Cầu thang và khoảng thông tầng cần được thiết kế cùng không gian chung.
+    caption: Cầu thang và khoảng thông tầng cần được thiết kế cùng không gian chung.
+  - key: image-2
+    image: /images/blog-rental-bedroom.jpg
+    after_heading: 5. Phòng ngủ master — tiêu chuẩn resort
+    alt: Lớp rèm, ánh sáng và lưu trữ góp phần tạo nên phòng ngủ thư thái.
+    caption: Lớp rèm, ánh sáng và lưu trữ góp phần tạo nên phòng ngủ thư thái.
+  - key: image-3
+    image: /images/blog-villa-garden.jpg
+    after_heading: 6. Sân vườn — không gian sống thứ hai
+    alt: Kết nối phòng khách, hiên và cây xanh để mở rộng không gian sinh hoạt.
+    caption: Kết nối phòng khách, hiên và cây xanh để mở rộng không gian sinh hoạt.
 ---
 
 Thiết kế nội thất biệt thự không phải là "thiết kế chung cư nhưng lớn hơn". Không gian nhiều tầng, chiều cao tầng lớn, sân vườn, hầm để xe, các không gian chức năng riêng biệt — tất cả đặt ra những bài toán thiết kế hoàn toàn mới.

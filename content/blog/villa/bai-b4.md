@@ -1,10 +1,23 @@
 ---
-title: "Thủ tục hoàn thiện biệt thự và liền kề tại Vinhomes — khác gì so với chung cư?"
-slug: "bai-b4"
+title: Thủ tục hoàn thiện biệt thự và liền kề tại Vinhomes — khác gì so với chung cư?
+slug: bai-b4
 date: "2024-11-15"
-category: "Vinhomes · Thủ tục"
+category: Vinhomes · Thủ tục
 read_time: 6
 excerpt: ""
+thumbnail: /images/planning.jpg
+inline_image: /images/blog-site-inspection.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-site-inspection.jpg
+    after_heading: 3. Che chắn khi thi công — yêu cầu bắt buộc
+    alt: Tổ chức mặt bằng và kiểm tra hiện trạng trong quá trình hoàn thiện.
+    caption: Tổ chức mặt bằng và kiểm tra hiện trạng trong quá trình hoàn thiện.
+  - key: image-2
+    image: /images/blog-materials-budget.jpg
+    after_heading: Hồ sơ xin phép BQL — biệt thự & liền kề
+    alt: Chuẩn bị bản vẽ và phương án hoàn thiện trước khi triển khai.
+    caption: Chuẩn bị bản vẽ và phương án hoàn thiện trước khi triển khai.
 ---
 
 Nếu bạn đã quen với thủ tục cải tạo chung cư Vinhomes, đừng nghĩ rằng biệt thự và liền kề cũng tương tự. Có những điểm khác biệt căn bản — về cơ quan cấp phép, về hồ sơ kỹ thuật và về quy mô kiểm tra.

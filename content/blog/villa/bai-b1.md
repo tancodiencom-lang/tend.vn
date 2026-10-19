@@ -1,10 +1,23 @@
 ---
-title: "Chi phí hoàn thiện biệt thự và liền kề Vinhomes — con số thực tế"
-slug: "bai-b1"
+title: Chi phí hoàn thiện biệt thự và liền kề Vinhomes — con số thực tế
+slug: bai-b1
 date: "2024-11-15"
-category: "Tài chính · Biệt thự & Liền kề"
+category: Tài chính · Biệt thự & Liền kề
 read_time: 6
 excerpt: ""
+thumbnail: /images/villa.jpg
+inline_image: /images/blog-materials-budget.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-materials-budget.jpg
+    after_heading: Bảng chi phí tham khảo — Biệt thự Vinhomes
+    alt: Thống nhất các nhóm vật liệu trước khi lập ngân sách hoàn thiện.
+    caption: Thống nhất các nhóm vật liệu trước khi lập ngân sách hoàn thiện.
+  - key: image-2
+    image: /images/blog-villa-garden.jpg
+    after_heading: Sân vườn và ngoại thất — chi phí thường bị bỏ quên
+    alt: Sân vườn, hiên và cửa kính cần được tính cùng phương án nội thất.
+    caption: Sân vườn, hiên và cửa kính cần được tính cùng phương án nội thất.
 ---
 
 Nếu bạn đã đọc bài về chi phí hoàn thiện chung cư Vinhomes, hãy tạm quên những con số đó đi. Biệt thự và liền kề là một bài toán hoàn toàn khác — về quy mô, về phức tạp kỹ thuật và về những rủi ro phát sinh nếu không lên kế hoạch kỹ.

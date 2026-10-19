@@ -1,10 +1,23 @@
 ---
-title: "Biệt thự và liền kề Vinhomes cho thuê được bao nhiêu? ROI thực tế"
-slug: "bai-b2"
+title: Biệt thự và liền kề Vinhomes cho thuê được bao nhiêu? ROI thực tế
+slug: bai-b2
 date: "2024-11-15"
-category: "Tài chính · Biệt thự & Liền kề"
+category: Tài chính · Biệt thự & Liền kề
 read_time: 6
 excerpt: ""
+thumbnail: /images/blog-villa-garden.jpg
+inline_image: /images/blog-villa-garden.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-villa-garden.jpg
+    after_heading: "Mô hình 3: Cho thuê ngắn hạn (Villa rental / Airbnb)"
+    alt: Không gian sinh hoạt kết nối sân vườn tạo thêm trải nghiệm nghỉ ngơi.
+    caption: Không gian sinh hoạt kết nối sân vườn tạo thêm trải nghiệm nghỉ ngơi.
+  - key: image-2
+    image: /images/blog-rental-bedroom.jpg
+    after_heading: Yếu tố quan trọng nhất khi thiết kế để cho thuê
+    alt: Phòng ngủ ngăn nắp và đầy đủ tiện nghi giúp việc sử dụng thuận tiện hơn.
+    caption: Phòng ngủ ngăn nắp và đầy đủ tiện nghi giúp việc sử dụng thuận tiện hơn.
 ---
 
 Biệt thự và liền kề Vinhomes có tiềm năng khai thác dòng tiền khác hoàn toàn so với chung cư — cả về mức giá, về loại hình cho thuê lẫn về đối tượng khách thuê. Bài viết này chia sẻ dữ liệu giá thuê thực tế và phân tích ROI cho từng loại hình.
