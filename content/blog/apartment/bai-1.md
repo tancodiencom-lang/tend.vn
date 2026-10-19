@@ -1,10 +1,23 @@
 ---
-title: "Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?"
-slug: "bai-1"
+title: Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?
+slug: bai-1
 date: "2024-11-15"
-category: "Hướng dẫn"
+category: Hướng dẫn
 read_time: 6
 excerpt: ""
+thumbnail: /images/raw.jpg
+inline_image: /images/blog-site-inspection.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-site-inspection.jpg
+    after_heading: "Bước 1: Chụp ảnh và kiểm tra hiện trạng"
+    alt: Kiểm tra cao độ, hiện trạng tường và bản vẽ trước khi hoàn thiện.
+    caption: Kiểm tra cao độ, hiện trạng tường và bản vẽ trước khi hoàn thiện.
+  - key: image-2
+    image: /images/blog-materials-budget.jpg
+    after_heading: "Bước 4: Lên kế hoạch thiết kế"
+    alt: Đối chiếu bản vẽ với mẫu gỗ, đá và vải để thống nhất phương án.
+    caption: Đối chiếu bản vẽ với mẫu gỗ, đá và vải để thống nhất phương án.
 ---
 
 Ngày nhận bàn giao nhà thô tại Vinhomes thường là ngày vừa hào hứng vừa… choáng ngợp. Bạn cầm chìa khóa, bước vào căn nhà với tường xi măng trần, sàn đất đá, dây điện lơ lửng — và tự hỏi: **bây giờ phải làm gì?**

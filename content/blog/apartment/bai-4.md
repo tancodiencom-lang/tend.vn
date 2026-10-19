@@ -1,10 +1,28 @@
 ---
-title: "Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?"
-slug: "bai-4"
+title: Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?
+slug: bai-4
 date: "2024-11-15"
-category: "Kinh nghiệm"
+category: Kinh nghiệm
 read_time: 6
 excerpt: ""
+thumbnail: /images/bedroom.jpg
+inline_image: /images/blog-materials-budget.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-materials-budget.jpg
+    after_heading: "2. Vật liệu: bền đẹp cùng lúc"
+    alt: Chọn vật liệu qua mẫu thật để cân bằng thẩm mỹ và độ bền.
+    caption: Chọn vật liệu qua mẫu thật để cân bằng thẩm mỹ và độ bền.
+  - key: image-2
+    image: /images/blog-smart-lock.jpg
+    after_heading: 4. Khóa cửa thông minh — bắt buộc
+    alt: Khóa cửa có thiết kế gọn, phù hợp không gian dùng để ở và cho thuê.
+    caption: Khóa cửa có thiết kế gọn, phù hợp không gian dùng để ở và cho thuê.
+  - key: image-3
+    image: /images/blog-rental-bedroom.jpg
+    after_heading: 5. Phòng ngủ master — đầu tư nhiều nhất
+    alt: Phòng ngủ ưu tiên giường thoải mái, lưu trữ kín và ánh sáng dịu.
+    caption: Phòng ngủ ưu tiên giường thoải mái, lưu trữ kín và ánh sáng dịu.
 ---
 
 Nhiều người nghĩ: "Hoàn thiện nhà đẹp là có thể cho thuê được." Đúng — nhưng chưa đủ. Thiết kế cho **dual-purpose** (vừa ở vừa cho thuê) là một bài toán riêng mà hầu hết đơn vị thi công không nghĩ đến.

@@ -1,10 +1,23 @@
 ---
-title: "Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể"
-slug: "bai-5"
+title: Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể
+slug: bai-5
 date: "2024-11-15"
-category: "Vinhomes"
+category: Vinhomes
 read_time: 6
 excerpt: ""
+thumbnail: /images/planning.jpg
+inline_image: /images/blog-materials-budget.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-materials-budget.jpg
+    after_heading: Hồ sơ cần chuẩn bị
+    alt: Bản vẽ mặt bằng và phương án vật liệu giúp làm rõ phạm vi cải tạo.
+    caption: Bản vẽ mặt bằng và phương án vật liệu giúp làm rõ phạm vi cải tạo.
+  - key: image-2
+    image: /images/blog-site-inspection.jpg
+    after_heading: Quy trình từng bước
+    alt: Đối chiếu bản vẽ với hiện trạng trước khi bắt đầu thi công.
+    caption: Đối chiếu bản vẽ với hiện trạng trước khi bắt đầu thi công.
 ---
 
 Thủ tục xin phép cải tạo tại Vinhomes là rào cản đầu tiên — và thường là lý do khiến nhiều chủ nhà trì hoãn kế hoạch hoàn thiện. Bài viết này hướng dẫn chi tiết quy trình chuẩn áp dụng cho hầu hết các khu Vinhomes, kèm những điểm khác biệt cần chú ý.

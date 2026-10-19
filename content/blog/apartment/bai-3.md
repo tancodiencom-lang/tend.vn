@@ -1,10 +1,38 @@
 ---
-title: "5 phong cách nội thất phù hợp nhất cho căn hộ Vinhomes"
-slug: "bai-3"
+title: 5 phong cách nội thất phù hợp nhất cho căn hộ Vinhomes
+slug: bai-3
 date: "2024-11-15"
-category: "Thiết kế"
+category: Thiết kế
 read_time: 6
 excerpt: ""
+thumbnail: /images/japandi-living.jpg
+inline_image: /images/japandi-living.jpg
+illustrations:
+  - key: image-1
+    image: /images/japandi-living.jpg
+    after_heading: 1. Japandi — Ấm áp và tối giản
+    alt: "Japandi: gỗ sáng màu, nội thất thấp và bảng màu trung tính ấm."
+    caption: "Japandi: gỗ sáng màu, nội thất thấp và bảng màu trung tính ấm."
+  - key: image-2
+    image: /images/blog-scandinavian-living.jpg
+    after_heading: 2. Scandinavian — Sáng sủa và thực dụng
+    alt: "Scandinavian: nền trắng, gỗ sồi sáng và nhiều ánh sáng tự nhiên."
+    caption: "Scandinavian: nền trắng, gỗ sồi sáng và nhiều ánh sáng tự nhiên."
+  - key: image-3
+    image: /images/studio.jpg
+    after_heading: 3. Hiện đại tối giản — Sang trọng và dễ bảo trì
+    alt: "Hiện đại tối giản: bố cục gọn, đường nét rõ và công năng linh hoạt."
+    caption: "Hiện đại tối giản: bố cục gọn, đường nét rõ và công năng linh hoạt."
+  - key: image-4
+    image: /images/blog-wabi-sabi-living.jpg
+    after_heading: 4. Wabi-sabi — Vẻ đẹp của sự không hoàn hảo
+    alt: "Wabi-sabi: bề mặt mộc, chất liệu tự nhiên và vẻ đẹp không cầu kỳ."
+    caption: "Wabi-sabi: bề mặt mộc, chất liệu tự nhiên và vẻ đẹp không cầu kỳ."
+  - key: image-5
+    image: /images/blog-indochine-living.jpg
+    after_heading: 5. Indochine — Đậm chất văn hóa Đông Dương
+    alt: "Indochine: gỗ sẫm, mây đan và họa tiết gạch tạo điểm nhấn."
+    caption: "Indochine: gỗ sẫm, mây đan và họa tiết gạch tạo điểm nhấn."
 ---
 
 Chọn phong cách nội thất là một trong những quyết định đầu tiên — và thường gây bối rối nhất — khi bắt đầu hoàn thiện căn hộ. Có quá nhiều thuật ngữ: Japandi, Scandinavian, Minimalist, Industrial, Wabi-sabi… Bài viết này giúp bạn hiểu rõ 5 phong cách phổ biến nhất tại Vinhomes và cách chọn đúng cho căn nhà của mình.
