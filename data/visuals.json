@@ -1,0 +1,70 @@
+{
+  "slots": [
+    {
+      "key": "home-hero",
+      "label": "Trang chủ — ảnh đầu trang",
+      "image": "/images/japandi-living.jpg",
+      "alt": "Không gian phòng khách với gỗ sồi và ánh sáng tự nhiên"
+    },
+    {
+      "key": "service-0",
+      "label": "Dịch vụ 1",
+      "image": "/images/planning.jpg",
+      "alt": "Bản vẽ và hồ sơ chuẩn bị cải tạo"
+    },
+    {
+      "key": "service-1",
+      "label": "Dịch vụ 2",
+      "image": "/images/kitchen.jpg",
+      "alt": "Thiết kế bếp và lựa chọn vật liệu"
+    },
+    {
+      "key": "service-2",
+      "label": "Dịch vụ 3",
+      "image": "/images/site.jpg",
+      "alt": "Các hạng mục thi công nội thất"
+    },
+    {
+      "key": "service-3",
+      "label": "Dịch vụ 4",
+      "image": "/images/japandi-living.jpg",
+      "alt": "Không gian sống hoàn thiện"
+    },
+    {
+      "key": "hero-about",
+      "label": "Ảnh đầu trang — about",
+      "image": "/images/classic.jpg",
+      "alt": ""
+    },
+    {
+      "key": "hero-portfolio",
+      "label": "Ảnh đầu trang — portfolio",
+      "image": "/images/japandi-living.jpg",
+      "alt": ""
+    },
+    {
+      "key": "hero-svc-thu-tuc",
+      "label": "Ảnh đầu trang — svc-thu-tuc",
+      "image": "/images/planning.jpg",
+      "alt": ""
+    },
+    {
+      "key": "hero-svc-thiet-ke",
+      "label": "Ảnh đầu trang — svc-thiet-ke",
+      "image": "/images/kitchen.jpg",
+      "alt": ""
+    },
+    {
+      "key": "hero-svc-thi-cong",
+      "label": "Ảnh đầu trang — svc-thi-cong",
+      "image": "/images/site.jpg",
+      "alt": ""
+    },
+    {
+      "key": "hero-svc-ban-giao",
+      "label": "Ảnh đầu trang — svc-ban-giao",
+      "image": "/images/bedroom.jpg",
+      "alt": ""
+    }
+  ]
+}
