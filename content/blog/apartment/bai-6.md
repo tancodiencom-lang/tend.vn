@@ -1,10 +1,23 @@
 ---
-title: "Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?"
-slug: "bai-6"
+title: Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?
+slug: bai-6
 date: "2024-11-15"
-category: "Tài chính"
+category: Tài chính
 read_time: 6
 excerpt: ""
+thumbnail: /images/blog-materials-budget.jpg
+inline_image: /images/kitchen.jpg
+illustrations:
+  - key: image-1
+    image: /images/kitchen.jpg
+    after_heading: Sự khác biệt giữa 3 mức hoàn thiện là gì?
+    alt: Tủ bếp, mặt bàn và phụ kiện cần được lựa chọn cùng mức đầu tư.
+    caption: Tủ bếp, mặt bàn và phụ kiện cần được lựa chọn cùng mức đầu tư.
+  - key: image-2
+    image: /images/blog-materials-budget.jpg
+    after_heading: Chi phí phân tích theo hạng mục
+    alt: Tách ngân sách theo vật liệu và hạng mục để dễ đối chiếu báo giá.
+    caption: Tách ngân sách theo vật liệu và hạng mục để dễ đối chiếu báo giá.
 ---
 
 Đây là câu hỏi nhận được nhiều nhất — và khó trả lời nhất vì chi phí thực tế phụ thuộc vào rất nhiều yếu tố. Bài viết này không đưa ra con số "trung bình" vô nghĩa mà chia sẻ bảng chi phí thực tế từ các dự án tenD đã hoàn thiện, kèm phân tích để bạn có thể ước tính cho căn nhà cụ thể của mình.

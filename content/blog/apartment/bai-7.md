@@ -1,10 +1,28 @@
 ---
-title: "Làm sao chọn đơn vị hoàn thiện nhà uy tín tại Vinhomes?"
-slug: "bai-7"
+title: Làm sao chọn đơn vị hoàn thiện nhà uy tín tại Vinhomes?
+slug: bai-7
 date: "2024-11-15"
-category: "Kinh nghiệm"
+category: Kinh nghiệm
 read_time: 6
 excerpt: ""
+thumbnail: /images/blog-contractor-consultation.jpg
+inline_image: /images/blog-contractor-consultation.jpg
+illustrations:
+  - key: image-1
+    image: /images/blog-contractor-consultation.jpg
+    after_heading: 10 câu hỏi cần hỏi trực tiếp
+    alt: Trao đổi bản vẽ, mẫu vật liệu và phạm vi công việc trước khi ký hợp đồng.
+    caption: Trao đổi bản vẽ, mẫu vật liệu và phạm vi công việc trước khi ký hợp đồng.
+  - key: image-2
+    image: /images/blog-joinery-workshop.jpg
+    after_heading: 5 dấu hiệu đỏ cần tránh
+    alt: Chất lượng gia công đồ mộc là một yếu tố cần được kiểm tra trực tiếp.
+    caption: Chất lượng gia công đồ mộc là một yếu tố cần được kiểm tra trực tiếp.
+  - key: image-3
+    image: /images/blog-site-inspection.jpg
+    after_heading: Checklist nhanh trước khi ký hợp đồng
+    alt: Kiểm tra năng lực giám sát và cách đối chiếu công việc với bản vẽ.
+    caption: Kiểm tra năng lực giám sát và cách đối chiếu công việc với bản vẽ.
 ---
 
 Mỗi năm có hàng nghìn căn nhà Vinhomes được bàn giao. Và mỗi năm có không ít chủ nhà bị mất tiền, mất thời gian, thậm chí mất cả tình cảm vì chọn sai đơn vị thi công. Bài viết này tổng hợp 10 câu hỏi cần hỏi trước khi ký hợp đồng — và những dấu hiệu đỏ bạn không được bỏ qua.

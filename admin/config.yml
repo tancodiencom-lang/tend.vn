@@ -17,6 +17,22 @@ collections:
   - name: "settings"
     label: "⚙️ Cài đặt chung"
     files:
+      - name: "visuals"
+        label: "Ảnh trang chủ & dịch vụ"
+        file: "data/visuals.json"
+        fields:
+          - label: "Vị trí ảnh"
+            name: "slots"
+            widget: "list"
+            summary: "{{fields.label}}"
+            min: 11
+            max: 11
+            fields:
+              - { label: "Mã vị trí", name: "key", widget: "hidden" }
+              - { label: "Vị trí", name: "label", widget: "string" }
+              - { label: "Ảnh", name: "image", widget: "image" }
+              - { label: "Mô tả ảnh", name: "alt", widget: "string", required: false }
+
       - name: "company"
         label: "Thông tin công ty"
         file: "data/company.json"
@@ -115,6 +131,17 @@ collections:
       - { label: "Danh mục", name: "category", widget: "select", options: ["Hướng dẫn", "Tài chính", "Thiết kế", "Kinh nghiệm", "Vinhomes"] }
       - { label: "Thời gian đọc (phút)", name: "read_time", widget: "number", default: 5 }
       - { label: "Ảnh đại diện", name: "thumbnail", widget: "image", required: false }
+      - label: "Ảnh minh họa trong bài"
+        name: "illustrations"
+        widget: "list"
+        required: false
+        summary: "{{fields.caption}}"
+        fields:
+          - { label: "Mã ảnh", name: "key", widget: "hidden", required: false }
+          - { label: "Ảnh", name: "image", widget: "image" }
+          - { label: "Mục đặt ảnh", name: "after_heading", widget: "string", required: false, hint: "Chép đúng tiêu đề mục để đặt ảnh ngay dưới mục đó." }
+          - { label: "Mô tả ảnh", name: "alt", widget: "string", required: false }
+          - { label: "Chú thích", name: "caption", widget: "string", required: false }
       - { label: "Mô tả ngắn", name: "excerpt", widget: "text" }
       - { label: "Nội dung", name: "body", widget: "markdown" }
 
@@ -132,6 +159,17 @@ collections:
       - { label: "Danh mục", name: "category", widget: "select", options: ["Tài chính · Biệt thự", "Thiết kế · Biệt thự", "Vinhomes · Biệt thự", "Kinh nghiệm · Biệt thự"] }
       - { label: "Thời gian đọc (phút)", name: "read_time", widget: "number", default: 5 }
       - { label: "Ảnh đại diện", name: "thumbnail", widget: "image", required: false }
+      - label: "Ảnh minh họa trong bài"
+        name: "illustrations"
+        widget: "list"
+        required: false
+        summary: "{{fields.caption}}"
+        fields:
+          - { label: "Mã ảnh", name: "key", widget: "hidden", required: false }
+          - { label: "Ảnh", name: "image", widget: "image" }
+          - { label: "Mục đặt ảnh", name: "after_heading", widget: "string", required: false, hint: "Chép đúng tiêu đề mục để đặt ảnh ngay dưới mục đó." }
+          - { label: "Mô tả ảnh", name: "alt", widget: "string", required: false }
+          - { label: "Chú thích", name: "caption", widget: "string", required: false }
       - { label: "Mô tả ngắn", name: "excerpt", widget: "text" }
       - { label: "Nội dung", name: "body", widget: "markdown" }
 
@@ -146,4 +184,29 @@ collections:
       - { label: "Tiêu đề", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Cập nhật lần cuối", name: "last_updated", widget: "string" }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
+
+  - name: "blog_about"
+    label: "Blog Về tenD"
+    folder: "content/blog/about"
+    create: false
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Slug URL", name: "slug", widget: "string" }
+      - { label: "Ngày đăng", name: "date", widget: "datetime" }
+      - { label: "Danh mục", name: "category", widget: "string" }
+      - { label: "Thời gian đọc", name: "read_time", widget: "number" }
+      - { label: "Ảnh đại diện", name: "thumbnail", widget: "image", required: false }
+      - label: "Ảnh minh họa trong bài"
+        name: "illustrations"
+        widget: "list"
+        required: false
+        summary: "{{fields.caption}}"
+        fields:
+          - { label: "Mã ảnh", name: "key", widget: "hidden", required: false }
+          - { label: "Ảnh", name: "image", widget: "image" }
+          - { label: "Mục đặt ảnh", name: "after_heading", widget: "string", required: false, hint: "Chép đúng tiêu đề mục để đặt ảnh ngay dưới mục đó." }
+          - { label: "Mô tả ảnh", name: "alt", widget: "string", required: false }
+          - { label: "Chú thích", name: "caption", widget: "string", required: false }
+      - { label: "Mô tả ngắn", name: "excerpt", widget: "text", required: false }
       - { label: "Nội dung", name: "body", widget: "markdown" }

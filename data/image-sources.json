@@ -1,0 +1,135 @@
+{
+  "projects": [
+    {
+      "key": "ocean-park",
+      "file": "vinhomes-ocean-park-s1",
+      "image": "/images/japandi-living.jpg",
+      "alt": "Phòng khách Japandi với gỗ sồi và sofa màu kem",
+      "gallery": [
+        "/images/japandi-living.jpg",
+        "/images/bedroom.jpg",
+        "/images/kitchen.jpg"
+      ],
+      "source": "content/projects/vinhomes-ocean-park-s1.md"
+    },
+    {
+      "key": "smart-city",
+      "file": "vinhomes-smart-city",
+      "image": "/images/studio.jpg",
+      "alt": "Căn studio hiện đại với bếp xanh và góc làm việc",
+      "gallery": [
+        "/images/studio.jpg"
+      ],
+      "source": "content/projects/vinhomes-smart-city.md"
+    },
+    {
+      "key": "grand-park",
+      "file": "vinhomes-grand-park",
+      "image": "/images/kitchen.jpg",
+      "alt": "Không gian bếp và bàn ăn gỗ sáng màu",
+      "gallery": [
+        "/images/kitchen.jpg"
+      ],
+      "source": "content/projects/vinhomes-grand-park.md"
+    },
+    {
+      "key": "metropolis",
+      "file": "vinhomes-metropolis",
+      "image": "/images/luxury.jpg",
+      "alt": "Phòng khách cao cấp với gỗ óc chó và đá sáng màu",
+      "gallery": [
+        "/images/luxury.jpg"
+      ],
+      "source": "content/projects/vinhomes-metropolis.md"
+    },
+    {
+      "key": "royal-city",
+      "file": "vinhomes-royal-city",
+      "image": "/images/bedroom.jpg",
+      "alt": "Phòng ngủ tối giản với chất liệu gỗ và vải tự nhiên",
+      "gallery": [
+        "/images/bedroom.jpg"
+      ],
+      "source": "content/projects/vinhomes-royal-city.md"
+    },
+    {
+      "key": "ecopark",
+      "file": "ecopark-rung-co",
+      "image": "/images/japandi-living.jpg",
+      "alt": "Không gian sống mở kết nối với cây xanh",
+      "gallery": [
+        "/images/japandi-living.jpg",
+        "/images/kitchen.jpg"
+      ],
+      "source": "content/projects/ecopark-rung-co.md"
+    },
+    {
+      "key": "nha-pho",
+      "file": "nha-pho-hai-ba-trung",
+      "image": "/images/classic.jpg",
+      "alt": "Phòng khách nhà phố tân cổ điển với phào chỉ màu kem",
+      "gallery": [
+        "/images/classic.jpg"
+      ],
+      "source": "content/projects/nha-pho-hai-ba-trung.md"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "bai-1",
+      "source": "content/blog/apartment/bai-1.md"
+    },
+    {
+      "id": "bai-2",
+      "source": "content/blog/apartment/bai-2.md"
+    },
+    {
+      "id": "bai-3",
+      "source": "content/blog/apartment/bai-3.md"
+    },
+    {
+      "id": "bai-4",
+      "source": "content/blog/apartment/bai-4.md"
+    },
+    {
+      "id": "bai-5",
+      "source": "content/blog/apartment/bai-5.md"
+    },
+    {
+      "id": "bai-6",
+      "source": "content/blog/apartment/bai-6.md"
+    },
+    {
+      "id": "bai-7",
+      "source": "content/blog/apartment/bai-7.md"
+    },
+    {
+      "id": "bai-b1",
+      "source": "content/blog/villa/bai-b1.md"
+    },
+    {
+      "id": "bai-b2",
+      "source": "content/blog/villa/bai-b2.md"
+    },
+    {
+      "id": "bai-b3",
+      "source": "content/blog/villa/bai-b3.md"
+    },
+    {
+      "id": "bai-b4",
+      "source": "content/blog/villa/bai-b4.md"
+    },
+    {
+      "id": "ve-tend-1",
+      "source": "content/blog/about/ve-tend-1.md"
+    },
+    {
+      "id": "ve-tend-2",
+      "source": "content/blog/about/ve-tend-2.md"
+    },
+    {
+      "id": "ve-tend-3",
+      "source": "content/blog/about/ve-tend-3.md"
+    }
+  ]
+}

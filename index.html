@@ -14,8 +14,6 @@
 <meta property="og:title" content="tenD — Hoàn thiện nhà trọn gói tại khu đô thị">
 <meta property="og:description" content="15 năm kinh nghiệm hoàn thiện nội thất tại Vinhomes, Ecopark và các khu đô thị. 500+ dự án, bảo hành 24 tháng.">
 <meta property="og:image" content="https://tend.vn/images/og-cover.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:site_name" content="tenD">
 <meta name="twitter:card" content="summary_large_image">
@@ -27,6 +25,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"LocalBusiness","name":"tenD - Hoàn thiện nhà trọn gói","alternateName":"Công ty TNHH Tân Cổ Điển","url":"https://tend.vn","telephone":"+84973858666","email":"info@tenD.vn","description":"Dịch vụ hoàn thiện nội thất nhà ở tại các khu đô thị Vinhomes, Ecopark. 15 năm kinh nghiệm, 500+ dự án.","address":{"@type":"PostalAddress","streetAddress":"Tòa nhà CDS, 477 Minh Khai","addressLocality":"Hai Bà Trưng","addressRegion":"Hà Nội","addressCountry":"VN"},"openingHours":"Mo-Sa 08:00-18:00","priceRange":"$$","image":"https://tend.vn/images/og-cover.jpg","sameAs":["https://zalo.me/0973858666"]}
+</script>
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"tenD","url":"https://tend.vn","description":"Hoàn thiện nội thất nhà ở tại Vinhomes, Ecopark, Times City và các khu đô thị"}
@@ -1158,6 +1157,8 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 .article-page{display:none;}
 .article-page.active{display:block;}
 </style>
+<link rel="preload" as="image" href="images/japandi-living.jpg">
+<link rel="stylesheet" href="assets/visuals.css?v=20261019-photos">
 </head>
 <body>
 
@@ -1215,6 +1216,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <!-- ═══════════════════════════ -->
 <div id="page-home" class="page-view active">
 <section id="s1">
+  <img class="hero-photo" src="images/japandi-living.jpg" alt="Không gian phòng khách với gỗ sồi và ánh sáng tự nhiên" fetchpriority="high" decoding="async" data-visual-slot="home-hero">
   <div class="s1-grid-lines"></div>
   <div class="s1-inner">
 
@@ -1445,14 +1447,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   <!-- Project grid -->
   <div class="proj-grid r">
     <div class="proj">
-      <div class="proj-inner">
-        <svg class="room-art" viewBox="0 0 380 480" fill="none">
-          <rect x="30" y="50" width="320" height="370" stroke="#D4A853" stroke-width="1.2"/>
-          <rect x="50" y="240" width="130" height="180" fill="#D4A853" opacity=".2"/>
-          <rect x="200" y="260" width="130" height="160" fill="#D4A853" opacity=".12"/>
-          <line x1="30" y1="420" x2="350" y2="420" stroke="#D4A853" stroke-width=".8"/>
-          <rect x="55" y="70" width="110" height="80" stroke="#D4A853" stroke-width=".7" opacity=".4"/>
-        </svg>
+      <div class="proj-inner" data-project-key="ocean-park"><img src="images/japandi-living.jpg" alt="Phòng khách Japandi với gỗ sồi và sofa màu kem" loading="lazy" decoding="async" class="project-photo" data-project-cover="ocean-park">
         <div class="proj-overlay"></div>
         <div class="proj-cta-overlay">Xem dự án</div>
         <div class="proj-info">
@@ -1463,12 +1458,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
     </div>
     <div class="proj">
-      <div class="proj-inner">
-        <svg class="room-art" viewBox="0 0 220 200" fill="none">
-          <rect x="15" y="20" width="190" height="145" stroke="#D4A853" stroke-width="1.2"/>
-          <rect x="25" y="85" width="70" height="80" fill="#D4A853" opacity=".18"/>
-          <rect x="115" y="95" width="80" height="70" fill="#D4A853" opacity=".12"/>
-        </svg>
+      <div class="proj-inner" data-project-key="smart-city"><img src="images/studio.jpg" alt="Căn studio hiện đại với bếp xanh và góc làm việc" loading="lazy" decoding="async" class="project-photo" data-project-cover="smart-city">
         <div class="proj-overlay"></div>
         <div class="proj-cta-overlay">Xem</div>
         <div class="proj-info">
@@ -1479,12 +1469,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
     </div>
     <div class="proj">
-      <div class="proj-inner">
-        <svg class="room-art" viewBox="0 0 220 200" fill="none">
-          <rect x="12" y="22" width="196" height="140" stroke="#D4A853" stroke-width="1.2"/>
-          <circle cx="110" cy="92" r="32" stroke="#D4A853" stroke-width=".8" opacity=".35"/>
-          <line x1="12" y1="162" x2="208" y2="162" stroke="#D4A853" stroke-width=".8"/>
-        </svg>
+      <div class="proj-inner" data-project-key="grand-park"><img src="images/kitchen.jpg" alt="Không gian bếp và bàn ăn gỗ sáng màu" loading="lazy" decoding="async" class="project-photo" data-project-cover="grand-park">
         <div class="proj-overlay"></div>
         <div class="proj-cta-overlay">Xem</div>
         <div class="proj-info">
@@ -1495,12 +1480,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
     </div>
     <div class="proj">
-      <div class="proj-inner">
-        <svg class="room-art" viewBox="0 0 220 200" fill="none">
-          <rect x="12" y="20" width="196" height="148" stroke="#D4A853" stroke-width="1.2"/>
-          <rect x="22" y="68" width="58" height="100" fill="#D4A853" opacity=".18"/>
-          <rect x="98" y="78" width="102" height="90" stroke="#D4A853" stroke-width=".8" opacity=".28"/>
-        </svg>
+      <div class="proj-inner" data-project-key="metropolis"><img src="images/luxury.jpg" alt="Phòng khách cao cấp với gỗ óc chó và đá sáng màu" loading="lazy" decoding="async" class="project-photo" data-project-cover="metropolis">
         <div class="proj-overlay"></div>
         <div class="proj-cta-overlay">Xem</div>
         <div class="proj-info">
@@ -1511,12 +1491,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
     </div>
     <div class="proj">
-      <div class="proj-inner">
-        <svg class="room-art" viewBox="0 0 220 200" fill="none">
-          <rect x="12" y="22" width="196" height="140" stroke="#D4A853" stroke-width="1.2"/>
-          <line x1="110" y1="22" x2="110" y2="162" stroke="#D4A853" stroke-width=".5" opacity=".25"/>
-          <rect x="22" y="80" width="80" height="82" fill="#D4A853" opacity=".14"/>
-        </svg>
+      <div class="proj-inner" data-project-key="royal-city"><img src="images/bedroom.jpg" alt="Phòng ngủ tối giản với chất liệu gỗ và vải tự nhiên" loading="lazy" decoding="async" class="project-photo" data-project-cover="royal-city">
         <div class="proj-overlay"></div>
         <div class="proj-cta-overlay">Xem</div>
         <div class="proj-info">
@@ -1626,7 +1601,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="page-about" class="page-view">
 
   <div class="page-hero">
-    <div class="page-hero-bg"></div>
+    <div class="page-hero-bg"><img src="images/classic.jpg" alt="" loading="lazy" decoding="async" class="page-cover" data-visual-slot="hero-about"></div>
     <div class="ph-inner">
       <div class="ph-eyebrow">Về chúng tôi</div>
       <h1 class="ph-title">tenD ra đời từ<br>một câu hỏi đơn giản.</h1>
@@ -1762,7 +1737,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="page-portfolio" class="page-view">
 
   <div class="page-hero">
-    <div class="page-hero-bg"></div>
+    <div class="page-hero-bg"><img src="images/japandi-living.jpg" alt="" loading="lazy" decoding="async" class="page-cover" data-visual-slot="hero-portfolio"></div>
     <div class="ph-inner">
       <div class="ph-eyebrow">Portfolio</div>
       <h1 class="ph-title">Những không gian<br>đã thức tỉnh.</h1>
@@ -1783,7 +1758,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
     <div class="portfolio-masonry">
       <div class="portfolio-item" data-style="Japandi" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(150deg,#2A2420,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-ocean-park" data-img-alt="Vinhomes Ocean Park — Tòa S1">
+        <div class="pi-thumb" style="background:linear-gradient(150deg,#2A2420,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-ocean-park" data-img-alt="Vinhomes Ocean Park — Tòa S1"><img src="images/japandi-living.jpg" alt="Phòng khách Japandi với gỗ sồi và sofa màu kem" loading="lazy" decoding="async" class="project-photo" data-project-cover="ocean-park">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Japandi · 2PN</div>
@@ -1795,7 +1770,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
 
       <div class="portfolio-item" data-style="Hiện đại" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(135deg,#242220,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-smart-city" data-img-alt="Vinhomes Smart City">
+        <div class="pi-thumb" style="background:linear-gradient(135deg,#242220,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-smart-city" data-img-alt="Vinhomes Smart City"><img src="images/studio.jpg" alt="Căn studio hiện đại với bếp xanh và góc làm việc" loading="lazy" decoding="async" class="project-photo" data-project-cover="smart-city">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Hiện đại · Studio</div>
@@ -1807,7 +1782,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
 
       <div class="portfolio-item" data-style="Scandinavian" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(160deg,#222020,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-grand-park" data-img-alt="Vinhomes Grand Park">
+        <div class="pi-thumb" style="background:linear-gradient(160deg,#222020,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-grand-park" data-img-alt="Vinhomes Grand Park"><img src="images/kitchen.jpg" alt="Không gian bếp và bàn ăn gỗ sáng màu" loading="lazy" decoding="async" class="project-photo" data-project-cover="grand-park">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Scandinavian · 2PN</div>
@@ -1818,7 +1793,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
 
       <div class="portfolio-item" data-style="Luxury" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(140deg,#282420,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-metropolis" data-img-alt="Vinhomes Metropolis">
+        <div class="pi-thumb" style="background:linear-gradient(140deg,#282420,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-metropolis" data-img-alt="Vinhomes Metropolis"><img src="images/luxury.jpg" alt="Phòng khách cao cấp với gỗ óc chó và đá sáng màu" loading="lazy" decoding="async" class="project-photo" data-project-cover="metropolis">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Luxury · 3PN</div>
@@ -1830,7 +1805,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
 
       <div class="portfolio-item" data-style="Wabi-sabi" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(155deg,#252220,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-royal-city" data-img-alt="Vinhomes Royal City">
+        <div class="pi-thumb" style="background:linear-gradient(155deg,#252220,#1B1918);background-size:cover;background-position:center;" data-img-id="img-project-royal-city" data-img-alt="Vinhomes Royal City"><img src="images/bedroom.jpg" alt="Phòng ngủ tối giản với chất liệu gỗ và vải tự nhiên" loading="lazy" decoding="async" class="project-photo" data-project-cover="royal-city">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Wabi-sabi · 2PN</div>
@@ -1841,7 +1816,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
 
       <div class="portfolio-item" data-style="Hiện đại" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(145deg,#1E2420,#141A17);background-size:cover;background-position:center;" data-img-id="img-project-ecopark" data-img-alt="Ecopark — Rừng Cọ">
+        <div class="pi-thumb" style="background:linear-gradient(145deg,#1E2420,#141A17);background-size:cover;background-position:center;" data-img-id="img-project-ecopark" data-img-alt="Ecopark — Rừng Cọ"><img src="images/japandi-living.jpg" alt="Không gian sống mở kết nối với cây xanh" loading="lazy" decoding="async" class="project-photo" data-project-cover="ecopark">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Hiện đại · 3PN</div>
@@ -1853,7 +1828,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
 
       <div class="portfolio-item" data-style="Tân cổ điển" onclick="scrollToProject('featured-project')" style="cursor:pointer;">
-        <div class="pi-thumb" style="background:linear-gradient(140deg,#24201E,#1A1614);background-size:cover;background-position:center;" data-img-id="img-project-nha-pho" data-img-alt="Nhà phố Hai Bà Trưng">
+        <div class="pi-thumb" style="background:linear-gradient(140deg,#24201E,#1A1614);background-size:cover;background-position:center;" data-img-id="img-project-nha-pho" data-img-alt="Nhà phố Hai Bà Trưng"><img src="images/classic.jpg" alt="Phòng khách nhà phố tân cổ điển với phào chỉ màu kem" loading="lazy" decoding="async" class="project-photo" data-project-cover="nha-pho">
           <div class="pi-overlay"></div>
           <div class="pi-info">
             <div class="pi-style">Tân cổ điển · 4PN</div>
@@ -1883,15 +1858,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     <div class="project-detail">
       <div>
         <div class="proj-gallery">
-          <div class="proj-gallery-main" style="background:linear-gradient(150deg,#2A2420,#1B1918);display:flex;align-items:center;justify-content:center;">
-            <span style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(201,169,110,.3);">Ảnh phòng khách</span>
-          </div>
-          <div class="proj-gallery-sub" style="display:flex;align-items:center;justify-content:center;">
-            <span style="font-family:'Barlow Condensed',sans-serif;font-size:14px;color:rgba(201,169,110,.25);">Phòng ngủ master</span>
-          </div>
-          <div class="proj-gallery-sub" style="display:flex;align-items:center;justify-content:center;">
-            <span style="font-family:'Barlow Condensed',sans-serif;font-size:14px;color:rgba(201,169,110,.25);">Bếp & Phòng ăn</span>
-          </div>
+          <div class="proj-gallery-main"><img src="images/japandi-living.jpg" alt="Phòng khách Japandi" loading="lazy" decoding="async" class="gallery-photo" data-featured-gallery="0"></div>
+          <div class="proj-gallery-sub"><img src="images/bedroom.jpg" alt="Phòng ngủ với đầu giường gỗ" loading="lazy" decoding="async" class="gallery-photo" data-featured-gallery="1"></div>
+          <div class="proj-gallery-sub"><img src="images/kitchen.jpg" alt="Bếp và phòng ăn" loading="lazy" decoding="async" class="gallery-photo" data-featured-gallery="2"></div>
         </div>
         <div style="margin-top:32px;">
           <h3 style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;color:var(--ebony);margin-bottom:14px;">Câu chuyện dự án</h3>
@@ -1942,14 +1911,14 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
     <!-- BLOG FILTER TAGS -->
     <div class="blog-filters" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;">
-      <button class="blog-tag active" onclick="filterBlog('all')">Tất cả</button>
-      <button class="blog-tag" onclick="filterBlog('chung-cu')">Chung cư</button>
-      <button class="blog-tag" onclick="filterBlog('biet-thu')">Biệt thự</button>
-      <button class="blog-tag" onclick="filterBlog('ve-tend')">Về tenD</button>
-      <button class="blog-tag" onclick="filterBlog('huong-dan')">Hướng dẫn</button>
-      <button class="blog-tag" onclick="filterBlog('tai-chinh')">Tài chính</button>
-      <button class="blog-tag" onclick="filterBlog('thiet-ke')">Thiết kế</button>
-      <button class="blog-tag" onclick="filterBlog('kinh-nghiem')">Kinh nghiệm</button>
+      <button class="blog-tag active" onclick="filterBlog('all', this)">Tất cả</button>
+      <button class="blog-tag" onclick="filterBlog('chung-cu', this)">Chung cư</button>
+      <button class="blog-tag" onclick="filterBlog('biet-thu', this)">Biệt thự</button>
+      <button class="blog-tag" onclick="filterBlog('ve-tend', this)">Về tenD</button>
+      <button class="blog-tag" onclick="filterBlog('huong-dan', this)">Hướng dẫn</button>
+      <button class="blog-tag" onclick="filterBlog('tai-chinh', this)">Tài chính</button>
+      <button class="blog-tag" onclick="filterBlog('thiet-ke', this)">Thiết kế</button>
+      <button class="blog-tag" onclick="filterBlog('kinh-nghiem', this)">Kinh nghiệm</button>
     </div>
 
     <!-- CHUNG CƯ -->
@@ -1959,69 +1928,69 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <span class="lbl-badge">7 bài</span>
     </div>
     <div class="grid-3">
-      <div class="card" data-blog-tag="huong-dan" onclick="showBlogArticle('bai-1')">
-        <div class="card-thumb"><div class="card-cat">Hướng dẫn</div></div>
+      <a class="card" data-blog-tag="huong-dan" href="#article-bai-1" onclick="return followBlogLink(event,'bai-1')">
+        <div class="card-thumb"><img src="images/raw.jpg" width="1600" height="900" alt="Căn hộ bàn giao thô trước khi hoàn thiện" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-1"><div class="card-cat">Hướng dẫn</div></div>
         <div class="card-body">
           <div class="card-meta">15/11/2024 · 8 phút</div>
           <div class="card-title">Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?</div>
           <p class="card-excerpt">5 bước theo thứ tự ưu tiên ngay sau khi nhận bàn giao.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="tai-chinh" onclick="showBlogArticle('bai-2')">
-        <div class="card-thumb"><div class="card-cat">Tài chính</div></div>
+      </a>
+      <a class="card" data-blog-tag="tai-chinh" href="#article-bai-2" onclick="return followBlogLink(event,'bai-2')">
+        <div class="card-thumb"><img src="images/studio.jpg" width="1600" height="900" alt="Không gian studio đầy đủ nội thất" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-2"><div class="card-cat">Tài chính</div></div>
         <div class="card-body">
           <div class="card-meta">8/11/2024 · 6 phút</div>
           <div class="card-title">Căn hộ Vinhomes cho thuê được bao nhiêu một tháng?</div>
           <p class="card-excerpt">Bảng giá thuê thực tế + tính ROI theo từng khu.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="thiet-ke" onclick="showBlogArticle('bai-3')">
-        <div class="card-thumb"><div class="card-cat">Thiết kế</div></div>
+      </a>
+      <a class="card" data-blog-tag="thiet-ke" href="#article-bai-3" onclick="return followBlogLink(event,'bai-3')">
+        <div class="card-thumb"><img src="images/japandi-living.jpg" width="1600" height="800" alt="Không gian sống Japandi với vật liệu tự nhiên" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-3"><div class="card-cat">Thiết kế</div></div>
         <div class="card-body">
           <div class="card-meta">1/11/2024 · 5 phút</div>
           <div class="card-title">5 phong cách nội thất phù hợp nhất cho căn hộ Vinhomes</div>
           <p class="card-excerpt">Japandi, Scandinavian, Hiện đại, Wabi-sabi, Indochine.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="kinh-nghiem" onclick="showBlogArticle('bai-4')">
-        <div class="card-thumb"><div class="card-cat">Kinh nghiệm</div></div>
+      </a>
+      <a class="card" data-blog-tag="kinh-nghiem" href="#article-bai-4" onclick="return followBlogLink(event,'bai-4')">
+        <div class="card-thumb"><img src="images/bedroom.jpg" width="1536" height="1024" alt="Phòng ngủ với bảng màu trung tính ấm" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-4"><div class="card-cat">Kinh nghiệm</div></div>
         <div class="card-body">
           <div class="card-meta">25/10/2024 · 7 phút</div>
           <div class="card-title">Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?</div>
           <p class="card-excerpt">5 nguyên tắc dual-purpose design thực tế.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="huong-dan" onclick="showBlogArticle('bai-5')">
-        <div class="card-thumb"><div class="card-cat">Vinhomes</div></div>
+      </a>
+      <a class="card" data-blog-tag="huong-dan" href="#article-bai-5" onclick="return followBlogLink(event,'bai-5')">
+        <div class="card-thumb"><img src="images/planning.jpg" width="1536" height="1024" alt="Chuẩn bị hồ sơ, bản vẽ và phương án cải tạo" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-5"><div class="card-cat">Vinhomes</div></div>
         <div class="card-body">
           <div class="card-meta">18/10/2024 · 4 phút</div>
           <div class="card-title">Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể</div>
           <p class="card-excerpt">Hồ sơ, quy trình, lưu ý riêng từng khu đô thị.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="tai-chinh" onclick="showBlogArticle('bai-6')">
-        <div class="card-thumb"><div class="card-cat">Tài chính</div></div>
+      </a>
+      <a class="card" data-blog-tag="tai-chinh" href="#article-bai-6" onclick="return followBlogLink(event,'bai-6')">
+        <div class="card-thumb"><img src="images/blog-materials-budget.jpg" width="1600" height="900" alt="Lập kế hoạch ngân sách cùng mẫu vật liệu" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-6"><div class="card-cat">Tài chính</div></div>
         <div class="card-body">
           <div class="card-meta">10/10/2024 · 5 phút</div>
           <div class="card-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div>
           <p class="card-excerpt">Bảng chi phí thực tế theo diện tích và mức độ hoàn thiện.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="kinh-nghiem" onclick="showBlogArticle('bai-7')">
-        <div class="card-thumb"><div class="card-cat">Kinh nghiệm</div></div>
+      </a>
+      <a class="card" data-blog-tag="kinh-nghiem" href="#article-bai-7" onclick="return followBlogLink(event,'bai-7')">
+        <div class="card-thumb"><img src="images/blog-contractor-consultation.jpg" width="1600" height="900" alt="Đối chiếu bản vẽ và mẫu vật liệu trước khi lựa chọn đơn vị" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-7"><div class="card-cat">Kinh nghiệm</div></div>
         <div class="card-body">
           <div class="card-meta">5/10/2024 · 8 phút</div>
           <div class="card-title">Làm sao chọn đơn vị hoàn thiện nhà uy tín tại khu đô thị?</div>
           <p class="card-excerpt">10 câu hỏi cần hỏi trước khi ký hợp đồng. Dấu hiệu nhận biết đơn vị không đáng tin.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
+      </a>
     </div>
 
     </div><!-- end chung-cu -->
@@ -2034,8 +2003,8 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     </div>
     <div class="grid-2">
 
-      <div class="card featured-villa" data-blog-tag="tai-chinh" onclick="showBlogArticle('bai-b1')">
-        <div class="card-thumb card-thumb-villa" style="height:280px;">
+      <a class="card featured-villa" data-blog-tag="tai-chinh" href="#article-bai-b1" onclick="return followBlogLink(event,'bai-b1')">
+        <div class="card-thumb card-thumb-villa" style="height:280px;"><img src="images/villa.jpg" width="1600" height="900" alt="Không gian biệt thự với cầu thang và trần cao" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-b1">
           <div class="card-cat villa">Tài chính · Biệt thự</div>
           <div class="card-new-badge">Mới</div>
         </div>
@@ -2045,10 +2014,10 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
           <p class="card-excerpt">Biệt thự đơn lập, song lập, liền kề có chi phí hoàn thiện rất khác chung cư. Bảng chi phí thực tế, phân tích từng hạng mục và những sai lầm thường gặp khiến ngân sách đội lên gấp đôi.</p>
           <span class="card-read">Đọc bài viết →</span>
         </div>
-      </div>
+      </a>
 
-      <div class="card" data-blog-tag="tai-chinh" onclick="showBlogArticle('bai-b2')">
-        <div class="card-thumb card-thumb-villa">
+      <a class="card" data-blog-tag="tai-chinh" href="#article-bai-b2" onclick="return followBlogLink(event,'bai-b2')">
+        <div class="card-thumb card-thumb-villa"><img src="images/blog-villa-garden.jpg" width="1600" height="900" alt="Không gian biệt thự kết nối với sân vườn" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-b2">
           <div class="card-cat villa">Tài chính · Biệt thự</div>
           <div class="card-new-badge">Mới</div>
         </div>
@@ -2058,10 +2027,10 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
           <p class="card-excerpt">Giá thuê, tỷ lệ lấp đầy, mô hình khai thác và thời gian hoàn vốn thực tế cho biệt thự và liền kề.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
+      </a>
 
-      <div class="card" data-blog-tag="thiet-ke" onclick="showBlogArticle('bai-b3')">
-        <div class="card-thumb card-thumb-lienke">
+      <a class="card" data-blog-tag="thiet-ke" href="#article-bai-b3" onclick="return followBlogLink(event,'bai-b3')">
+        <div class="card-thumb card-thumb-lienke"><img src="images/villa.jpg" width="1600" height="900" alt="Biệt thự với trần cao và cầu thang làm điểm nhấn" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-b3">
           <div class="card-cat lienke">Thiết kế · Liền kề</div>
           <div class="card-new-badge">Mới</div>
         </div>
@@ -2071,10 +2040,10 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
           <p class="card-excerpt">Không gian lớn, nhiều tầng, sân vườn, hầm xe — thiết kế biệt thự đặt ra những bài toán riêng cần giải pháp riêng.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
+      </a>
 
-      <div class="card" data-blog-tag="huong-dan" onclick="showBlogArticle('bai-b4')">
-        <div class="card-thumb card-thumb-lienke">
+      <a class="card" data-blog-tag="huong-dan" href="#article-bai-b4" onclick="return followBlogLink(event,'bai-b4')">
+        <div class="card-thumb card-thumb-lienke"><img src="images/planning.jpg" width="1536" height="1024" alt="Chuẩn bị bản vẽ và hồ sơ trước khi cải tạo" loading="lazy" decoding="async" class="card-photo" data-blog-cover="bai-b4">
           <div class="card-cat lienke">Vinhomes · Liền kề</div>
           <div class="card-new-badge">Mới</div>
         </div>
@@ -2084,42 +2053,43 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
           <p class="card-excerpt">Quy trình xin phép, hồ sơ cần chuẩn bị và những điểm đặc thù khi thi công nhà phố/biệt thự trong khu đô thị Vinhomes.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
+      </a>
 
     
+    </div><!-- end grid biet-thu -->
     </div><!-- end biet-thu -->
 
     <!-- VỀ TEND -->
     <div class="blog-section" data-blog-cat="ve-tend">
     <div class="section-label">Về tenD<span class="lbl-badge" style="background:#4A7B6E;">3 bài</span></div>
     <div class="grid-3">
-      <div class="card" data-blog-tag="ve-tend" onclick="showBlogArticle('ve-tend-1')">
-        <div class="card-thumb" style="background:linear-gradient(135deg,#2A2824,#1B1918);"><div class="card-cat" style="background:#4A7B6E;">Về tenD</div></div>
+      <a class="card" data-blog-tag="ve-tend" href="#article-ve-tend-1" onclick="return followBlogLink(event,'ve-tend-1')">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#2A2824,#1B1918);"><img src="images/workshop.jpg" width="1600" height="800" alt="Không gian sản xuất và lắp ráp đồ mộc" loading="lazy" decoding="async" class="card-photo" data-blog-cover="ve-tend-1"><div class="card-cat" style="background:#4A7B6E;">Về tenD</div></div>
         <div class="card-body">
           <div class="card-meta">15/3/2025 · 5 phút</div>
           <div class="card-title">Người đứng sau tenD — Từ xưởng mộc đến thương hiệu khu đô thị</div>
           <p class="card-excerpt">15 năm kinh nghiệm, xưởng riêng, 500+ dự án hoàn thiện.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="ve-tend" onclick="showBlogArticle('ve-tend-2')">
-        <div class="card-thumb" style="background:linear-gradient(135deg,#28241E,#1B1918);"><div class="card-cat" style="background:#4A7B6E;">Về tenD</div></div>
+      </a>
+      <a class="card" data-blog-tag="ve-tend" href="#article-ve-tend-2" onclick="return followBlogLink(event,'ve-tend-2')">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#28241E,#1B1918);"><img src="images/workshop.jpg" width="1600" height="800" alt="Thiết bị gia công và các module tủ tại xưởng" loading="lazy" decoding="async" class="card-photo" data-blog-cover="ve-tend-2"><div class="card-cat" style="background:#4A7B6E;">Về tenD</div></div>
         <div class="card-body">
           <div class="card-meta">10/3/2025 · 4 phút</div>
           <div class="card-title">Bên trong xưởng sản xuất Tân Cổ Điển — nơi sản phẩm bắt đầu</div>
           <p class="card-excerpt">Xưởng KCN Apec, Bắc Ninh — CNC, dán cạnh tự động, phòng sơn.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
-      <div class="card" data-blog-tag="ve-tend" onclick="showBlogArticle('ve-tend-3')">
-        <div class="card-thumb" style="background:linear-gradient(135deg,#242826,#1B1918);"><div class="card-cat" style="background:#4A7B6E;">Về tenD</div></div>
+      </a>
+      <a class="card" data-blog-tag="ve-tend" href="#article-ve-tend-3" onclick="return followBlogLink(event,'ve-tend-3')">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#242826,#1B1918);"><img src="images/site.jpg" width="1536" height="1024" alt="Các hạng mục hoàn thiện trong căn hộ đang thi công" loading="lazy" decoding="async" class="card-photo" data-blog-cover="ve-tend-3"><div class="card-cat" style="background:#4A7B6E;">Về tenD</div></div>
         <div class="card-body">
           <div class="card-meta">5/3/2025 · 5 phút</div>
           <div class="card-title">Một ngày trên công trường tenD — giám sát và báo cáo thực tế</div>
           <p class="card-excerpt">Họp đầu ngày, chụp ảnh tiến độ, báo cáo Zalo hàng tuần.</p>
           <span class="card-read">Đọc tiếp →</span>
         </div>
-      </div>
+      </a>
     </div>
     </div><!-- end ve-tend -->
 
@@ -2135,6 +2105,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-1" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Hướng dẫn</span>
       <h1 class="ah-title">Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?</h1>
       <div class="ah-meta">
@@ -2147,14 +2118,16 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     </div>
   </div>
 
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/raw.jpg" width="1600" height="900" alt="Căn hộ bàn giao thô trước khi hoàn thiện" loading="lazy" decoding="async" data-blog-cover="bai-1"></figure>
     <p>Ngày nhận bàn giao nhà thô tại Vinhomes thường là ngày vừa hào hứng vừa… choáng ngợp. Bạn cầm chìa khóa, bước vào căn nhà với tường xi măng trần, sàn đất đá, dây điện lơ lửng — và tự hỏi: <strong>bây giờ phải làm gì?</strong></p>
 
     <p>Đây là câu hỏi mà hầu hết chủ nhà Vinhomes đều gặp phải. Và thường, vì không biết bắt đầu từ đâu, nhiều người để nhà bỏ không thêm vài tháng — thậm chí vài năm.</p>
 
     <p>Bài viết này sẽ dẫn bạn qua từng bước cần làm ngay sau khi nhận nhà thô — theo đúng thứ tự ưu tiên.</p>
 
-    <h2>Bước 1: Chụp ảnh và kiểm tra hiện trạng</h2>
+    <h2>Bước 1: Chụp ảnh và kiểm tra hiện trạng</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Bước 1: Chụp ảnh và kiểm tra hiện trạng"><img src="images/blog-site-inspection.jpg" alt="Kiểm tra cao độ, hiện trạng tường và bản vẽ trước khi hoàn thiện." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-1:image-1" data-blog-inline="bai-1"><figcaption>Kiểm tra cao độ, hiện trạng tường và bản vẽ trước khi hoàn thiện.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Trước khi làm bất cứ điều gì, hãy dành 30 phút chụp ảnh toàn bộ căn nhà. Chụp từng góc, từng phòng, đặc biệt là:</p>
     <ul>
       <li>Vị trí hộp điện, đường dây điện âm tường (nếu có)</li>
@@ -2217,7 +2190,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Nếu bạn bắt đầu thi công khi chưa có giấy phép, ban quản lý có quyền yêu cầu dừng thi công ngay lập tức và phạt tiền. Trong trường hợp nghiêm trọng, bạn có thể bị yêu cầu hoàn trả hiện trạng ban đầu — rủi ro rất lớn.</p>
     </div>
 
-    <h2>Bước 4: Lên kế hoạch thiết kế</h2>
+    <h2>Bước 4: Lên kế hoạch thiết kế</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Bước 4: Lên kế hoạch thiết kế"><img src="images/blog-materials-budget.jpg" alt="Đối chiếu bản vẽ với mẫu gỗ, đá và vải để thống nhất phương án." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-1:image-2"><figcaption>Đối chiếu bản vẽ với mẫu gỗ, đá và vải để thống nhất phương án.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Song song với việc chờ phê duyệt, đây là thời điểm tốt để suy nghĩ về thiết kế. Hãy tự hỏi:</p>
     <ul>
       <li>Mục đích sử dụng căn nhà là gì? Để ở, cho thuê, hay cả hai?</li>
@@ -2256,7 +2231,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Bạn chỉ cần cung cấp giấy tờ sở hữu. tenD xử lý thủ tục Vinhomes, thiết kế, thi công và bàn giao — một hợp đồng, không đùn đẩy.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">Gọi tư vấn: 0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#751d1c3501101b115b031b" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
@@ -2264,8 +2239,8 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-5')"><div class="ri-cat">Vinhomes</div><div class="ri-title">Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-6')"><div class="ri-cat">Tài chính</div><div class="ri-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div></div>
+      <a class="related-item" href="#article-bai-5" onclick="return followBlogLink(event,'bai-5')"><div class="ri-cat">Vinhomes</div><div class="ri-title">Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể</div></a>
+      <a class="related-item" href="#article-bai-6" onclick="return followBlogLink(event,'bai-6')"><div class="ri-cat">Tài chính</div><div class="ri-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div></a>
     </div>
   </div>
 </div>
@@ -2278,12 +2253,13 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-2" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Tài chính</span>
       <h1 class="ah-title">Căn hộ Vinhomes cho thuê được bao nhiêu một tháng?</h1>
       <div class="ah-meta"><span>8 tháng 11, 2024</span><span class="ah-meta-divider"></span><span>6 phút đọc</span></div>
     </div>
   </div>
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/studio.jpg" width="1600" height="900" alt="Không gian studio đầy đủ nội thất" loading="lazy" decoding="async" data-blog-cover="bai-2"></figure>
     <p>Đây là câu hỏi đầu tiên hầu hết chủ nhà đặt ra khi nghĩ đến việc hoàn thiện căn hộ Vinhomes để khai thác dòng tiền. Câu trả lời không phải một con số cố định — nó phụ thuộc vào nhiều yếu tố. Nhưng có một điều chắc chắn: <strong>một căn hoàn thiện đúng chuẩn luôn cho thuê được giá cao hơn đáng kể so với căn hoàn thiện sơ sài.</strong></p>
 
     <h2>Bảng giá thuê tham khảo theo khu Vinhomes</h2>
@@ -2312,13 +2288,17 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     <h3>1. Tầng và view</h3>
     <p>Căn tầng cao, view thoáng, nhìn ra hồ hoặc công viên thường cho thuê cao hơn căn cùng diện tích ở tầng thấp từ <strong>15–30%</strong>. Đây là yếu tố cố định — bạn không thể thay đổi sau khi mua.</p>
 
-    <h3>2. Chất lượng hoàn thiện và phong cách thiết kế</h3>
+    <h3>2. Chất lượng hoàn thiện và phong cách thiết kế</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="2. Chất lượng hoàn thiện và phong cách thiết kế"><img src="images/blog-rental-bedroom.jpg" alt="Phòng ngủ gọn gàng, đầy đủ tiện nghi và có ánh sáng tự nhiên." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-2:image-1" data-blog-inline="bai-2"><figcaption>Phòng ngủ gọn gàng, đầy đủ tiện nghi và có ánh sáng tự nhiên.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Đây là yếu tố bạn có thể kiểm soát hoàn toàn. Một căn được thiết kế theo phong cách nhất quán, dùng vật liệu tốt, có ánh sáng đẹp — thường cho thuê được giá cao hơn 25–40% so với căn "hoàn thiện cơ bản". Khách thuê cao cấp sẵn sàng trả thêm cho sự khác biệt này.</p>
 
     <h3>3. Ảnh đăng tin</h3>
     <p>Nhiều chủ nhà bỏ qua điều này — nhưng ảnh đăng tin là yếu tố quyết định xem căn nhà của bạn có được click vào hay không. Ảnh chụp bằng điện thoại trong điều kiện ánh sáng kém sẽ làm giảm lượng quan tâm đáng kể, dù căn nhà thực tế rất đẹp.</p>
 
-    <h3>4. Loại hình cho thuê: dài hạn hay ngắn hạn</h3>
+    <h3>4. Loại hình cho thuê: dài hạn hay ngắn hạn</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="4. Loại hình cho thuê: dài hạn hay ngắn hạn"><img src="images/blog-smart-lock.jpg" alt="Khóa cửa thông minh giúp tổ chức việc giao nhận căn hộ thuận tiện hơn." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-2:image-2"><figcaption>Khóa cửa thông minh giúp tổ chức việc giao nhận căn hộ thuận tiện hơn.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Đây là quyết định quan trọng ảnh hưởng lớn đến tổng doanh thu:</p>
     <table class="data-table">
       <thead><tr><th></th><th>Cho thuê dài hạn</th><th>Cho thuê ngắn hạn (Airbnb)</th></tr></thead>
@@ -2355,15 +2335,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Gọi cho tenD — chúng tôi sẽ tư vấn miễn phí dựa trên dữ liệu thị trường thuê thực tế tại khu của bạn.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#c0a8a980b4a5aea4eeb6ae" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-4')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-6')"><div class="ri-cat">Tài chính</div><div class="ri-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div></div>
+      <a class="related-item" href="#article-bai-4" onclick="return followBlogLink(event,'bai-4')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?</div></a>
+      <a class="related-item" href="#article-bai-6" onclick="return followBlogLink(event,'bai-6')"><div class="ri-cat">Tài chính</div><div class="ri-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div></a>
     </div>
   </div>
 </div>
@@ -2376,15 +2356,18 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-3" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Thiết kế</span>
       <h1 class="ah-title">5 phong cách nội thất phù hợp nhất cho căn hộ Vinhomes</h1>
       <div class="ah-meta"><span>1 tháng 11, 2024</span><span class="ah-meta-divider"></span><span>5 phút đọc</span></div>
     </div>
   </div>
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/japandi-living.jpg" width="1600" height="800" alt="Không gian sống Japandi với vật liệu tự nhiên" loading="lazy" decoding="async" data-blog-cover="bai-3"></figure>
     <p>Chọn phong cách nội thất là một trong những quyết định đầu tiên — và thường gây bối rối nhất — khi bắt đầu hoàn thiện căn hộ. Có quá nhiều thuật ngữ: Japandi, Scandinavian, Minimalist, Industrial, Wabi-sabi… Bài viết này giúp bạn hiểu rõ 5 phong cách phổ biến nhất tại Vinhomes và cách chọn đúng cho căn nhà của mình.</p>
 
-    <h2>1. Japandi — Ấm áp và tối giản</h2>
+    <h2>1. Japandi — Ấm áp và tối giản</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="1. Japandi — Ấm áp và tối giản"><img src="images/japandi-living.jpg" alt="Japandi: gỗ sáng màu, nội thất thấp và bảng màu trung tính ấm." width="1600" height="800" loading="lazy" decoding="async" data-blog-illustration="bai-3:image-1" data-blog-inline="bai-3"><figcaption>Japandi: gỗ sáng màu, nội thất thấp và bảng màu trung tính ấm.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Japandi là sự kết hợp giữa phong cách Nhật Bản (tinh tế, thiên nhiên, tối giản) và Scandinavian (ấm áp, chức năng, sáng sủa). Đây là phong cách <strong>phổ biến nhất tại các dự án tenD</strong> và cũng là phong cách dễ cho thuê nhất.</p>
     <p><strong>Đặc trưng:</strong> Gỗ sáng màu, vải linen và cotton thô, tone màu kem-trắng-be-nâu nhạt, đồ nội thất đường nét gọn gàng, cây xanh trang trí, ánh sáng tự nhiên được tận dụng tối đa.</p>
     <p><strong>Phù hợp nhất với:</strong> Chủ nhà muốn vừa ở cuối tuần vừa cho thuê. Phong cách đủ cá tính để chủ nhà yêu thích, đồng thời đủ universal để khách thuê cảm thấy thoải mái.</p>
@@ -2393,22 +2376,30 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Căn Japandi chụp ảnh rất đẹp trên Airbnb và các kênh cho thuê — tone màu ấm, ánh sáng tự nhiên tốt, nội thất gọn gàng. Thường có lượng booking cao hơn các phong cách khác.</p>
     </div>
 
-    <h2>2. Scandinavian — Sáng sủa và thực dụng</h2>
+    <h2>2. Scandinavian — Sáng sủa và thực dụng</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="2. Scandinavian — Sáng sủa và thực dụng"><img src="images/blog-scandinavian-living.jpg" alt="Scandinavian: nền trắng, gỗ sồi sáng và nhiều ánh sáng tự nhiên." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-3:image-2"><figcaption>Scandinavian: nền trắng, gỗ sồi sáng và nhiều ánh sáng tự nhiên.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Phong cách Bắc Âu thiên về sự sáng sủa, thực dụng và thoải mái. Không quá cầu kỳ nhưng luôn toát lên cảm giác chỉn chu và có chất.</p>
     <p><strong>Đặc trưng:</strong> Màu trắng và xám nhạt chiếm ưu thế, nội thất gỗ sáng, đường nét đơn giản, nhiều cửa sổ, thảm mềm và đèn thả ấm. Không có chi tiết thừa.</p>
     <p><strong>Phù hợp nhất với:</strong> Căn hộ cho gia đình trẻ ở hoặc cho thuê dài hạn. Chi phí nội thất thường thấp hơn Japandi vì dễ tìm sản phẩm phù hợp hơn.</p>
 
-    <h2>3. Hiện đại tối giản — Sang trọng và dễ bảo trì</h2>
+    <h2>3. Hiện đại tối giản — Sang trọng và dễ bảo trì</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="3. Hiện đại tối giản — Sang trọng và dễ bảo trì"><img src="images/studio.jpg" alt="Hiện đại tối giản: bố cục gọn, đường nét rõ và công năng linh hoạt." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-3:image-3"><figcaption>Hiện đại tối giản: bố cục gọn, đường nét rõ và công năng linh hoạt.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Phong cách hiện đại không đồng nghĩa với "lạnh lẽo". Khi thực hiện đúng, nó mang lại cảm giác sang trọng, gọn gàng và rất dễ dọn dẹp — ưu điểm lớn khi cho thuê.</p>
     <p><strong>Đặc trưng:</strong> Đường nét thẳng, vật liệu bóng (kính, inox, đá), tủ âm tường không tay nắm, đèn LED âm trần, palette màu đơn sắc (trắng-xám-đen).</p>
     <p><strong>Phù hợp nhất với:</strong> Căn hộ cho chuyên gia nước ngoài thuê dài hạn hoặc chủ nhà thích phong cách mạnh mẽ, clean. Chi phí bảo trì thấp nhưng chi phí thi công ban đầu thường cao hơn.</p>
 
-    <h2>4. Wabi-sabi — Vẻ đẹp của sự không hoàn hảo</h2>
+    <h2>4. Wabi-sabi — Vẻ đẹp của sự không hoàn hảo</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="4. Wabi-sabi — Vẻ đẹp của sự không hoàn hảo"><img src="images/blog-wabi-sabi-living.jpg" alt="Wabi-sabi: bề mặt mộc, chất liệu tự nhiên và vẻ đẹp không cầu kỳ." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-3:image-4"><figcaption>Wabi-sabi: bề mặt mộc, chất liệu tự nhiên và vẻ đẹp không cầu kỳ.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Wabi-sabi có nguồn gốc từ triết học Nhật Bản — tìm thấy vẻ đẹp trong sự không hoàn hảo, tự nhiên và thô ráp. Đây là phong cách đang ngày càng phổ biến ở phân khúc cao cấp.</p>
     <p><strong>Đặc trưng:</strong> Bề mặt vật liệu thô (bê tông, đất nung, gỗ cũ), màu sắc đất (đen, nâu đậm, xanh rêu, kem đậm), cây xanh nhiều, ánh sáng mờ ấm, đồ vật không đối xứng.</p>
     <p><strong>Phù hợp nhất với:</strong> Chủ nhà có gu thẩm mỹ riêng, không muốn nhà giống ai. Cho thuê ngắn hạn Airbnb ở phân khúc cao cấp — khách trả giá cao để được trải nghiệm "độc lạ".</p>
 
-    <h2>5. Indochine — Đậm chất văn hóa Đông Dương</h2>
+    <h2>5. Indochine — Đậm chất văn hóa Đông Dương</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="5. Indochine — Đậm chất văn hóa Đông Dương"><img src="images/blog-indochine-living.jpg" alt="Indochine: gỗ sẫm, mây đan và họa tiết gạch tạo điểm nhấn." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-3:image-5"><figcaption>Indochine: gỗ sẫm, mây đan và họa tiết gạch tạo điểm nhấn.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Phong cách Indochine kết hợp kiến trúc thuộc địa Pháp với nét tinh tế của văn hóa Đông Nam Á. Ít phổ biến hơn nhưng tạo ra ấn tượng rất mạnh khi thực hiện đúng.</p>
     <p><strong>Đặc trưng:</strong> Gỗ đậm màu (teak, rosewood), vải lụa và gấm, tone màu xanh colonial và vàng đồng, tranh ảnh retro, đèn lồng, cửa lá sách.</p>
     <p><strong>Phù hợp nhất với:</strong> Các khu Vinhomes trung tâm (Royal City, Metropolis). Cho thuê ngắn hạn cho khách du lịch muốn trải nghiệm văn hóa Việt Nam. Không phù hợp với mọi khu Vinhomes.</p>
@@ -2432,15 +2423,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>tenD tư vấn miễn phí dựa trên mục đích sử dụng, diện tích và ngân sách của bạn — trước khi bắt đầu bất kỳ thiết kế nào.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#98f0f1d8ecfdf6fcb6eef6" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-4')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-6')"><div class="ri-cat">Tài chính</div><div class="ri-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div></div>
+      <a class="related-item" href="#article-bai-4" onclick="return followBlogLink(event,'bai-4')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?</div></a>
+      <a class="related-item" href="#article-bai-6" onclick="return followBlogLink(event,'bai-6')"><div class="ri-cat">Tài chính</div><div class="ri-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</div></a>
     </div>
   </div>
 </div>
@@ -2453,12 +2444,13 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-4" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Kinh nghiệm</span>
       <h1 class="ah-title">Thiết kế nhà để vừa ở vừa cho thuê — khác gì nhà chỉ để ở?</h1>
       <div class="ah-meta"><span>25 tháng 10, 2024</span><span class="ah-meta-divider"></span><span>7 phút đọc</span></div>
     </div>
   </div>
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/bedroom.jpg" width="1536" height="1024" alt="Phòng ngủ với bảng màu trung tính ấm" loading="lazy" decoding="async" data-blog-cover="bai-4"></figure>
     <p>Nhiều người nghĩ: "Hoàn thiện nhà đẹp là có thể cho thuê được." Đúng — nhưng chưa đủ. Thiết kế cho <strong>dual-purpose</strong> (vừa ở vừa cho thuê) là một bài toán riêng mà hầu hết đơn vị thi công không nghĩ đến.</p>
     <p>Bài viết này chia sẻ những nguyên tắc thiết kế cụ thể mà tenD áp dụng cho các dự án dual-purpose — để căn nhà vừa đủ cá tính cho chủ nhà tự hào, vừa đủ universal để khách thuê yêu thích và bền với thời gian sử dụng.</p>
 
@@ -2482,7 +2474,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     <p>Chọn palette màu warm neutral: kem, be, trắng ấm, nâu nhạt, gỗ sáng. Tránh màu đặc trưng quá mạnh (xanh navy đậm, đỏ đun, vàng nghệ) — dù bạn yêu thích chúng, khách thuê có thể không.</p>
     <p>Màu sắc warm neutral cũng có ưu điểm: <strong>chụp ảnh đẹp tự nhiên dưới mọi điều kiện ánh sáng</strong> — yếu tố quan trọng khi đăng ảnh trên Airbnb hay các kênh cho thuê.</p>
 
-    <h3>2. Vật liệu: bền đẹp cùng lúc</h3>
+    <h3>2. Vật liệu: bền đẹp cùng lúc</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="2. Vật liệu: bền đẹp cùng lúc"><img src="images/blog-materials-budget.jpg" alt="Chọn vật liệu qua mẫu thật để cân bằng thẩm mỹ và độ bền." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-4:image-1" data-blog-inline="bai-4"><figcaption>Chọn vật liệu qua mẫu thật để cân bằng thẩm mỹ và độ bền.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Chọn vật liệu mà vừa có texture đẹp vừa dễ bảo trì:</p>
     <ul>
       <li><strong>Sàn:</strong> SPC (Stone Plastic Composite) dày 6–8mm — đẹp như gỗ thật, không co ngót, chống nước, dễ thay thế từng tấm khi hỏng</li>
@@ -2495,7 +2489,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     <p>Đây là chi tiết nhỏ nhưng rất quan trọng. Khi cho thuê, bạn cần có nơi cất đồ cá nhân (quần áo, giấy tờ, đồ dùng cá nhân) mà khách thuê không thể tiếp cận.</p>
     <p>Thiết kế 1–2 tủ trong phòng ngủ hoặc kho với khóa riêng (fingerprint hoặc số). Chi phí thêm không đáng kể nhưng giải quyết hoàn toàn vấn đề này.</p>
 
-    <h3>4. Khóa cửa thông minh — bắt buộc</h3>
+    <h3>4. Khóa cửa thông minh — bắt buộc</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="4. Khóa cửa thông minh — bắt buộc"><img src="images/blog-smart-lock.jpg" alt="Khóa cửa có thiết kế gọn, phù hợp không gian dùng để ở và cho thuê." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-4:image-2"><figcaption>Khóa cửa có thiết kế gọn, phù hợp không gian dùng để ở và cho thuê.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Đây là khoản đầu tư không thể thiếu với dual-purpose design. Khóa thông minh với app cho phép:</p>
     <ul>
       <li>Tạo mã tạm thời cho khách thuê — hết hạn tự động khi khách check-out</li>
@@ -2504,7 +2500,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <li>Không cần trao/nhận chìa khóa thực tế — tiết kiệm thời gian của cả hai bên</li>
     </ul>
 
-    <h3>5. Phòng ngủ master — đầu tư nhiều nhất</h3>
+    <h3>5. Phòng ngủ master — đầu tư nhiều nhất</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="5. Phòng ngủ master — đầu tư nhiều nhất"><img src="images/blog-rental-bedroom.jpg" alt="Phòng ngủ ưu tiên giường thoải mái, lưu trữ kín và ánh sáng dịu." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-4:image-3"><figcaption>Phòng ngủ ưu tiên giường thoải mái, lưu trữ kín và ánh sáng dịu.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Phòng ngủ master nên được thiết kế là phòng đẹp nhất — nơi chủ nhà thực sự muốn về. Đây cũng là "ảnh hero" khi đăng tin cho thuê: nếu phòng ngủ đẹp, căn nhà sẽ được nhìn ở tầm cao hơn.</p>
     <p>Nếu cho thuê ngắn hạn: thiết kế phòng ngủ theo concept "hotel suite" — giường king-size, đầu giường có điểm nhấn, ánh sáng âm tường, tủ gương. Khách Airbnb rất thích điều này.</p>
 
@@ -2518,15 +2516,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Không phải thiết kế xong mới nghĩ đến cho thuê. Chúng tôi hỏi ngay từ buổi tư vấn đầu tiên: bạn muốn dùng căn nhà này như thế nào?</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#99f1f0d9edfcf7fdb7eff7" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-3')"><div class="ri-cat">Thiết kế</div><div class="ri-title">5 phong cách nội thất phù hợp nhất cho căn hộ Vinhomes</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-2')"><div class="ri-cat">Tài chính</div><div class="ri-title">Căn hộ Vinhomes cho thuê được bao nhiêu một tháng?</div></div>
+      <a class="related-item" href="#article-bai-3" onclick="return followBlogLink(event,'bai-3')"><div class="ri-cat">Thiết kế</div><div class="ri-title">5 phong cách nội thất phù hợp nhất cho căn hộ Vinhomes</div></a>
+      <a class="related-item" href="#article-bai-2" onclick="return followBlogLink(event,'bai-2')"><div class="ri-cat">Tài chính</div><div class="ri-title">Căn hộ Vinhomes cho thuê được bao nhiêu một tháng?</div></a>
     </div>
   </div>
 </div>
@@ -2539,12 +2537,13 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-5" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Vinhomes</span>
       <h1 class="ah-title">Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể</h1>
       <div class="ah-meta"><span>18 tháng 10, 2024</span><span class="ah-meta-divider"></span><span>4 phút đọc</span></div>
     </div>
   </div>
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/planning.jpg" width="1536" height="1024" alt="Chuẩn bị hồ sơ, bản vẽ và phương án cải tạo" loading="lazy" decoding="async" data-blog-cover="bai-5"></figure>
     <p>Thủ tục xin phép cải tạo tại Vinhomes là rào cản đầu tiên — và thường là lý do khiến nhiều chủ nhà trì hoãn kế hoạch hoàn thiện. Bài viết này hướng dẫn chi tiết quy trình chuẩn áp dụng cho hầu hết các khu Vinhomes, kèm những điểm khác biệt cần chú ý.</p>
 
     <div class="callout callout-gold">
@@ -2552,7 +2551,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Không bắt đầu bất kỳ công việc thi công nào trước khi có giấy phép chính thức từ ban quản lý Vinhomes — kể cả việc chỉ đánh dấu tường hay đưa vật tư vào nhà. Vi phạm có thể dẫn đến bị yêu cầu dừng thi công và phạt tiền.</p>
     </div>
 
-    <h2>Hồ sơ cần chuẩn bị</h2>
+    <h2>Hồ sơ cần chuẩn bị</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Hồ sơ cần chuẩn bị"><img src="images/blog-materials-budget.jpg" alt="Bản vẽ mặt bằng và phương án vật liệu giúp làm rõ phạm vi cải tạo." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-5:image-1" data-blog-inline="bai-5"><figcaption>Bản vẽ mặt bằng và phương án vật liệu giúp làm rõ phạm vi cải tạo.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Bộ hồ sơ tiêu chuẩn cho hầu hết các khu Vinhomes:</p>
     <ol>
       <li><strong>Đơn xin phép cải tạo</strong> — theo mẫu của ban quản lý (lấy tại văn phòng hoặc xin qua email)</li>
@@ -2575,7 +2576,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </tbody>
     </table>
 
-    <h2>Quy trình từng bước</h2>
+    <h2>Quy trình từng bước</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Quy trình từng bước"><img src="images/blog-site-inspection.jpg" alt="Đối chiếu bản vẽ với hiện trạng trước khi bắt đầu thi công." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-5:image-2"><figcaption>Đối chiếu bản vẽ với hiện trạng trước khi bắt đầu thi công.</figcaption></figure>
+<!-- blog-illustration:end -->
     <div class="steps-list">
       <div class="step-item">
         <div class="step-circle">1</div>
@@ -2628,15 +2631,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Chỉ cần cung cấp giấy tờ sở hữu. Chúng tôi xử lý hồ sơ, theo dõi phê duyệt và bàn giao giấy phép cho bạn.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#ee8687ae9a8b808ac09880" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-1')"><div class="ri-cat">Hướng dẫn</div><div class="ri-title">Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-7')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Làm sao chọn đơn vị hoàn thiện nhà uy tín tại khu đô thị?</div></div>
+      <a class="related-item" href="#article-bai-1" onclick="return followBlogLink(event,'bai-1')"><div class="ri-cat">Hướng dẫn</div><div class="ri-title">Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?</div></a>
+      <a class="related-item" href="#article-bai-7" onclick="return followBlogLink(event,'bai-7')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Làm sao chọn đơn vị hoàn thiện nhà uy tín tại khu đô thị?</div></a>
     </div>
   </div>
 </div>
@@ -2649,12 +2652,13 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-6" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Tài chính</span>
       <h1 class="ah-title">Chi phí hoàn thiện căn hộ Vinhomes thực tế là bao nhiêu?</h1>
       <div class="ah-meta"><span>10 tháng 10, 2024</span><span class="ah-meta-divider"></span><span>5 phút đọc</span></div>
     </div>
   </div>
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/blog-materials-budget.jpg" width="1600" height="900" alt="Lập kế hoạch ngân sách cùng mẫu vật liệu" loading="lazy" decoding="async" data-blog-cover="bai-6"></figure>
     <p>Đây là câu hỏi nhận được nhiều nhất — và khó trả lời nhất vì chi phí thực tế phụ thuộc vào rất nhiều yếu tố. Bài viết này không đưa ra con số "trung bình" vô nghĩa mà chia sẻ bảng chi phí thực tế từ các dự án tenD đã hoàn thiện, kèm phân tích để bạn có thể ước tính cho căn nhà cụ thể của mình.</p>
 
     <div class="callout callout-gold">
@@ -2673,12 +2677,16 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </tbody>
     </table>
 
-    <h3>Sự khác biệt giữa 3 mức hoàn thiện là gì?</h3>
+    <h3>Sự khác biệt giữa 3 mức hoàn thiện là gì?</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Sự khác biệt giữa 3 mức hoàn thiện là gì?"><img src="images/kitchen.jpg" alt="Tủ bếp, mặt bàn và phụ kiện cần được lựa chọn cùng mức đầu tư." width="1536" height="1024" loading="lazy" decoding="async" data-blog-illustration="bai-6:image-1" data-blog-inline="bai-6"><figcaption>Tủ bếp, mặt bàn và phụ kiện cần được lựa chọn cùng mức đầu tư.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p><strong>Hoàn thiện cơ bản:</strong> Đủ tiêu chuẩn để ở hoặc cho thuê giá thấp. Sàn laminate giá rẻ, tủ bếp MDF thông thường, thiết bị vệ sinh phổ thông, sơn tường một lớp, đèn LED cơ bản.</p>
     <p><strong>Hoàn thiện trung bình:</strong> Phong cách nhất quán, vật liệu chất lượng tốt, có điểm nhấn thiết kế. Sàn SPC hoặc gỗ kỹ thuật, tủ bếp Acrylic hoặc laminate mờ, thiết bị vệ sinh thương hiệu tầm trung, đèn có thiết kế, tranh/decor cơ bản.</p>
     <p><strong>Hoàn thiện cao cấp:</strong> Trải nghiệm như khách sạn 4–5 sao. Sàn gỗ tự nhiên hoặc đá, tủ bếp nhập khẩu, thiết bị vệ sinh cao cấp (Toto, Kohler, Duravit), hệ thống điện thông minh, âm thanh âm trần, nội thất tùy chỉnh.</p>
 
-    <h2>Chi phí phân tích theo hạng mục</h2>
+    <h2>Chi phí phân tích theo hạng mục</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Chi phí phân tích theo hạng mục"><img src="images/blog-materials-budget.jpg" alt="Tách ngân sách theo vật liệu và hạng mục để dễ đối chiếu báo giá." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-6:image-2"><figcaption>Tách ngân sách theo vật liệu và hạng mục để dễ đối chiếu báo giá.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Ví dụ căn 2PN 80m², hoàn thiện trung bình ~480 triệu:</p>
     <table class="data-table">
       <thead><tr><th>Hạng mục</th><th>Chi phí</th><th>Tỷ lệ</th></tr></thead>
@@ -2720,15 +2728,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>tenD báo giá cố định — bao gồm tất cả, không phát sinh. Tư vấn miễn phí và báo giá trong 3 ngày làm việc.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#630b0a2317060d074d150d" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-2')"><div class="ri-cat">Tài chính</div><div class="ri-title">Căn hộ Vinhomes cho thuê được bao nhiêu một tháng?</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-7')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Làm sao chọn đơn vị hoàn thiện nhà uy tín tại khu đô thị?</div></div>
+      <a class="related-item" href="#article-bai-2" onclick="return followBlogLink(event,'bai-2')"><div class="ri-cat">Tài chính</div><div class="ri-title">Căn hộ Vinhomes cho thuê được bao nhiêu một tháng?</div></a>
+      <a class="related-item" href="#article-bai-7" onclick="return followBlogLink(event,'bai-7')"><div class="ri-cat">Kinh nghiệm</div><div class="ri-title">Làm sao chọn đơn vị hoàn thiện nhà uy tín tại khu đô thị?</div></a>
     </div>
   </div>
 </div>
@@ -2741,15 +2749,18 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-7" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Kinh nghiệm</span>
       <h1 class="ah-title">Làm sao chọn đơn vị hoàn thiện nhà uy tín tại khu đô thị?</h1>
       <div class="ah-meta"><span>3 tháng 10, 2024</span><span class="ah-meta-divider"></span><span>6 phút đọc</span></div>
     </div>
   </div>
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/blog-contractor-consultation.jpg" width="1600" height="900" alt="Đối chiếu bản vẽ và mẫu vật liệu trước khi lựa chọn đơn vị" loading="lazy" decoding="async" data-blog-cover="bai-7"></figure>
     <p>Mỗi năm có hàng nghìn căn nhà Vinhomes được bàn giao. Và mỗi năm có không ít chủ nhà bị mất tiền, mất thời gian, thậm chí mất cả tình cảm vì chọn sai đơn vị thi công. Bài viết này tổng hợp 10 câu hỏi cần hỏi trước khi ký hợp đồng — và những dấu hiệu đỏ bạn không được bỏ qua.</p>
 
-    <h2>10 câu hỏi cần hỏi trực tiếp</h2>
+    <h2>10 câu hỏi cần hỏi trực tiếp</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="10 câu hỏi cần hỏi trực tiếp"><img src="images/blog-contractor-consultation.jpg" alt="Trao đổi bản vẽ, mẫu vật liệu và phạm vi công việc trước khi ký hợp đồng." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-7:image-1" data-blog-inline="bai-7"><figcaption>Trao đổi bản vẽ, mẫu vật liệu và phạm vi công việc trước khi ký hợp đồng.</figcaption></figure>
+<!-- blog-illustration:end -->
 
     <div class="steps-list">
       <div class="step-item">
@@ -2824,7 +2835,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </div>
     </div>
 
-    <h2>5 dấu hiệu đỏ cần tránh</h2>
+    <h2>5 dấu hiệu đỏ cần tránh</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="5 dấu hiệu đỏ cần tránh"><img src="images/blog-joinery-workshop.jpg" alt="Chất lượng gia công đồ mộc là một yếu tố cần được kiểm tra trực tiếp." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-7:image-2"><figcaption>Chất lượng gia công đồ mộc là một yếu tố cần được kiểm tra trực tiếp.</figcaption></figure>
+<!-- blog-illustration:end -->
     <div class="callout callout-dark">
       <div class="callout-title">⚠ Cảnh báo</div>
       <ul>
@@ -2836,7 +2849,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </ul>
     </div>
 
-    <h2>Checklist nhanh trước khi ký hợp đồng</h2>
+    <h2>Checklist nhanh trước khi ký hợp đồng</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Checklist nhanh trước khi ký hợp đồng"><img src="images/blog-site-inspection.jpg" alt="Kiểm tra năng lực giám sát và cách đối chiếu công việc với bản vẽ." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-7:image-3"><figcaption>Kiểm tra năng lực giám sát và cách đối chiếu công việc với bản vẽ.</figcaption></figure>
+<!-- blog-illustration:end -->
     <table class="data-table">
       <thead><tr><th>Tiêu chí</th><th>Đã kiểm tra?</th></tr></thead>
       <tbody>
@@ -2860,15 +2875,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Chúng tôi sẵn sàng trả lời tất cả — và kết nối bạn với khách hàng cũ trực tiếp. Minh bạch là cam kết của tenD.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#82eaebc2f6e7ece6acf4ec" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-1')"><div class="ri-cat">Hướng dẫn</div><div class="ri-title">Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-5')"><div class="ri-cat">Vinhomes</div><div class="ri-title">Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể</div></div>
+      <a class="related-item" href="#article-bai-1" onclick="return followBlogLink(event,'bai-1')"><div class="ri-cat">Hướng dẫn</div><div class="ri-title">Nhận nhà thô Vinhomes rồi — làm gì đầu tiên?</div></a>
+      <a class="related-item" href="#article-bai-5" onclick="return followBlogLink(event,'bai-5')"><div class="ri-cat">Vinhomes</div><div class="ri-title">Thủ tục xin phép cải tạo tại Vinhomes — từng bước cụ thể</div></a>
     </div>
   </div>
 </div>
@@ -2876,6 +2891,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-b1" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Tài chính · Biệt thự & Liền kề</span>
       <h1 class="ah-title">Chi phí hoàn thiện biệt thự và liền kề Vinhomes — con số thực tế</h1>
       <div class="ah-meta">
@@ -2888,7 +2904,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     </div>
   </div>
 
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/villa.jpg" width="1600" height="900" alt="Không gian biệt thự với cầu thang và trần cao" loading="lazy" decoding="async" data-blog-cover="bai-b1"></figure>
     <p>Nếu bạn đã đọc bài về chi phí hoàn thiện chung cư Vinhomes, hãy tạm quên những con số đó đi. Biệt thự và liền kề là một bài toán hoàn toàn khác — về quy mô, về phức tạp kỹ thuật và về những rủi ro phát sinh nếu không lên kế hoạch kỹ.</p>
 
     <p>Bài viết này chia sẻ dữ liệu chi phí thực tế từ các dự án biệt thự và liền kề tenD đã hoàn thiện tại Vinhomes, kèm phân tích chi tiết để bạn có thể lập ngân sách chính xác.</p>
@@ -2931,7 +2947,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </tbody>
     </table>
 
-    <h2>Bảng chi phí tham khảo — Biệt thự Vinhomes</h2>
+    <h2>Bảng chi phí tham khảo — Biệt thự Vinhomes</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Bảng chi phí tham khảo — Biệt thự Vinhomes"><img src="images/blog-materials-budget.jpg" alt="Thống nhất các nhóm vật liệu trước khi lập ngân sách hoàn thiện." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b1:image-1" data-blog-inline="bai-b1"><figcaption>Thống nhất các nhóm vật liệu trước khi lập ngân sách hoàn thiện.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Biệt thự song lập 3 tầng, đất 180m², sàn 320–380m²; Biệt thự đơn lập 2–3 tầng, đất 300–400m², sàn 350–500m²:</p>
 
     <table class="data-table">
@@ -2962,7 +2980,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       </tbody>
     </table>
 
-    <h2>Sân vườn và ngoại thất — chi phí thường bị bỏ quên</h2>
+    <h2>Sân vườn và ngoại thất — chi phí thường bị bỏ quên</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Sân vườn và ngoại thất — chi phí thường bị bỏ quên"><img src="images/blog-villa-garden.jpg" alt="Sân vườn, hiên và cửa kính cần được tính cùng phương án nội thất." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b1:image-2"><figcaption>Sân vườn, hiên và cửa kính cần được tính cùng phương án nội thất.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Đây là hạng mục mà <strong>hầu hết chủ nhà bỏ qua khi lập ngân sách ban đầu</strong> — và thường gây sốc khi nhận báo giá. Đối với biệt thự tại Vinhomes:</p>
     <ul>
       <li><strong>Cổng + hàng rào:</strong> 80–200 triệu tùy vật liệu (sắt nghệ thuật, inox, bê tông trang trí)</li>
@@ -3013,7 +3033,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Từ nội thất đến ngoại thất, từ cầu thang đến sân vườn — tất cả được liệt kê rõ trong một hợp đồng duy nhất. Tư vấn miễn phí, báo giá trong 5 ngày làm việc.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">Gọi: 0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#6b03022b1f0e050f451d05" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
@@ -3021,8 +3041,8 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-b2')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Biệt thự và liền kề Vinhomes cho thuê được bao nhiêu? ROI thực tế</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-b3')"><div class="ri-cat">Thiết kế · Biệt thự</div><div class="ri-title">Thiết kế nội thất biệt thự Vinhomes — khác hoàn toàn so với chung cư</div></div>
+      <a class="related-item" href="#article-bai-b2" onclick="return followBlogLink(event,'bai-b2')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Biệt thự và liền kề Vinhomes cho thuê được bao nhiêu? ROI thực tế</div></a>
+      <a class="related-item" href="#article-bai-b3" onclick="return followBlogLink(event,'bai-b3')"><div class="ri-cat">Thiết kế · Biệt thự</div><div class="ri-title">Thiết kế nội thất biệt thự Vinhomes — khác hoàn toàn so với chung cư</div></a>
     </div>
   </div>
 </div>
@@ -3035,6 +3055,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-b2" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Tài chính · Biệt thự & Liền kề</span>
       <h1 class="ah-title">Biệt thự và liền kề Vinhomes cho thuê được bao nhiêu? ROI thực tế</h1>
       <div class="ah-meta">
@@ -3046,7 +3067,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     </div>
   </div>
 
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/blog-villa-garden.jpg" width="1600" height="900" alt="Không gian biệt thự kết nối với sân vườn" loading="lazy" decoding="async" data-blog-cover="bai-b2"></figure>
     <p>Biệt thự và liền kề Vinhomes có tiềm năng khai thác dòng tiền khác hoàn toàn so với chung cư — cả về mức giá, về loại hình cho thuê lẫn về đối tượng khách thuê. Bài viết này chia sẻ dữ liệu giá thuê thực tế và phân tích ROI cho từng loại hình.</p>
 
     <h2>Giá thuê tham khảo — Biệt thự Vinhomes</h2>
@@ -3097,7 +3118,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <li><strong>Phù hợp với:</strong> Chủ muốn vừa ở (1–2 tầng) vừa khai thác dòng tiền</li>
     </ul>
 
-    <h3>Mô hình 3: Cho thuê ngắn hạn (Villa rental / Airbnb)</h3>
+    <h3>Mô hình 3: Cho thuê ngắn hạn (Villa rental / Airbnb)</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Mô hình 3: Cho thuê ngắn hạn (Villa rental / Airbnb)"><img src="images/blog-villa-garden.jpg" alt="Không gian sinh hoạt kết nối sân vườn tạo thêm trải nghiệm nghỉ ngơi." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b2:image-1" data-blog-inline="bai-b2"><figcaption>Không gian sinh hoạt kết nối sân vườn tạo thêm trải nghiệm nghỉ ngơi.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Biệt thự có sân vườn, hồ bơi riêng đang là phân khúc rất hot trên Airbnb và các kênh booking cao cấp. Nhóm khách: gia đình lớn, đám cưới nhỏ, team building công ty, staycation.</p>
     <ul>
       <li><strong>Giá ngắn hạn:</strong> 3–10 triệu/đêm với biệt thự có hồ bơi riêng</li>
@@ -3131,7 +3154,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>Trong khi chung cư chỉ cho thuê được theo căn hộ, biệt thự và liền kề có thể <strong>khai thác nhiều luồng dòng tiền cùng lúc</strong> từ một tài sản: kinh doanh + ở thuê + chính chủ dùng. Đây là cấu trúc tạo dòng tiền mà chung cư không thể có.</p>
     </div>
 
-    <h2>Yếu tố quan trọng nhất khi thiết kế để cho thuê</h2>
+    <h2>Yếu tố quan trọng nhất khi thiết kế để cho thuê</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Yếu tố quan trọng nhất khi thiết kế để cho thuê"><img src="images/blog-rental-bedroom.jpg" alt="Phòng ngủ ngăn nắp và đầy đủ tiện nghi giúp việc sử dụng thuận tiện hơn." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b2:image-2"><figcaption>Phòng ngủ ngăn nắp và đầy đủ tiện nghi giúp việc sử dụng thuận tiện hơn.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Không giống chung cư, biệt thự cho thuê cần có <strong>lối vào độc lập</strong> nếu muốn tách tầng — và điều này phải được thiết kế từ đầu, không thể làm lại sau khi đã xây xong. tenD luôn hỏi về kế hoạch khai thác trước khi vẽ bản thiết kế đầu tiên.</p>
 
     <div class="article-cta">
@@ -3139,7 +3164,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>tenD không chỉ thiết kế đẹp — chúng tôi thiết kế để tài sản của bạn làm việc hiệu quả nhất.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#ddb5b49da9b8b3b9f3abb3" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
@@ -3147,8 +3172,8 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-b1')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Chi phí hoàn thiện biệt thự và liền kề Vinhomes — con số thực tế</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-b3')"><div class="ri-cat">Thiết kế · Biệt thự</div><div class="ri-title">Thiết kế nội thất biệt thự — khác hoàn toàn so với chung cư</div></div>
+      <a class="related-item" href="#article-bai-b1" onclick="return followBlogLink(event,'bai-b1')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Chi phí hoàn thiện biệt thự và liền kề Vinhomes — con số thực tế</div></a>
+      <a class="related-item" href="#article-bai-b3" onclick="return followBlogLink(event,'bai-b3')"><div class="ri-cat">Thiết kế · Biệt thự</div><div class="ri-title">Thiết kế nội thất biệt thự — khác hoàn toàn so với chung cư</div></a>
     </div>
   </div>
 </div>
@@ -3161,6 +3186,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-b3" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Thiết kế · Biệt thự</span>
       <h1 class="ah-title">Thiết kế nội thất biệt thự Vinhomes — những điểm khác hoàn toàn so với chung cư</h1>
       <div class="ah-meta">
@@ -3172,7 +3198,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     </div>
   </div>
 
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/villa.jpg" width="1600" height="900" alt="Biệt thự với trần cao và cầu thang làm điểm nhấn" loading="lazy" decoding="async" data-blog-cover="bai-b3"></figure>
     <p>Thiết kế nội thất biệt thự không phải là "thiết kế chung cư nhưng lớn hơn". Không gian nhiều tầng, chiều cao tầng lớn, sân vườn, hầm để xe, các không gian chức năng riêng biệt — tất cả đặt ra những bài toán thiết kế hoàn toàn mới.</p>
 
     <h2>1. Bài toán luồng di chuyển — thứ không tồn tại trong chung cư</h2>
@@ -3196,7 +3222,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <li><strong>Cửa sổ cao:</strong> Tận dụng chiều cao bằng cửa sổ từ sàn đến gần trần — ánh sáng tự nhiên tràn ngập, cảnh quan bên ngoài trở thành "bức tranh sống".</li>
     </ul>
 
-    <h2>3. Cầu thang — trung tâm thẩm mỹ của toàn bộ biệt thự</h2>
+    <h2>3. Cầu thang — trung tâm thẩm mỹ của toàn bộ biệt thự</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="3. Cầu thang — trung tâm thẩm mỹ của toàn bộ biệt thự"><img src="images/villa.jpg" alt="Cầu thang và khoảng thông tầng cần được thiết kế cùng không gian chung." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b3:image-1" data-blog-inline="bai-b3"><figcaption>Cầu thang và khoảng thông tầng cần được thiết kế cùng không gian chung.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Trong biệt thự, cầu thang không chỉ là phương tiện di chuyển — nó là <strong>tâm điểm kiến trúc</strong>. Ai bước vào cũng nhìn thấy ngay. Thiết kế cầu thang cần được quyết định sớm trong quá trình thiết kế tổng thể vì nó ảnh hưởng đến kết cấu, không gian và ngân sách.</p>
     <p>Xu hướng đang được ưa chuộng tại biệt thự Vinhomes cao cấp: cầu thang thẳng công xon (floating staircase) — bậc gỗ óc chó hoặc marble, không có lòng thang, tay vịn kính cường lực hoặc inox mảnh. Tạo cảm giác nhẹ nhàng, sang trọng và rất photogenic.</p>
 
@@ -3209,11 +3237,15 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <li><strong>Phòng ăn độc lập:</strong> Bàn ăn 8–12 chỗ là tiêu chuẩn, không gian đủ để tiếp đãi khách mà không chật.</li>
     </ul>
 
-    <h2>5. Phòng ngủ master — tiêu chuẩn resort</h2>
+    <h2>5. Phòng ngủ master — tiêu chuẩn resort</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="5. Phòng ngủ master — tiêu chuẩn resort"><img src="images/blog-rental-bedroom.jpg" alt="Lớp rèm, ánh sáng và lưu trữ góp phần tạo nên phòng ngủ thư thái." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b3:image-2"><figcaption>Lớp rèm, ánh sáng và lưu trữ góp phần tạo nên phòng ngủ thư thái.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Phòng ngủ master biệt thự Vinhomes thường có diện tích 30–50m² gồm: phòng ngủ + walk-in closet + phòng tắm ensuite + balcony riêng. Đây là không gian riêng tư nhất và thường được đầu tư nhiều nhất.</p>
     <p>Thiết kế master suite theo tiêu chuẩn resort: giường king-size đặt giữa phòng, đầu giường ốp gỗ hoặc đá đến trần, hai tủ đầu giường đối xứng, hệ thống đèn ambiance điều chỉnh được. Phòng tắm có bồn tắm đặt tự do (freestanding tub), vòi sen rain shower riêng, double vanity.</p>
 
-    <h2>6. Sân vườn — không gian sống thứ hai</h2>
+    <h2>6. Sân vườn — không gian sống thứ hai</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="6. Sân vườn — không gian sống thứ hai"><img src="images/blog-villa-garden.jpg" alt="Kết nối phòng khách, hiên và cây xanh để mở rộng không gian sinh hoạt." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b3:image-3"><figcaption>Kết nối phòng khách, hiên và cây xanh để mở rộng không gian sinh hoạt.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Điểm khác biệt lớn nhất mà biệt thự có nhưng chung cư không có: <strong>kết nối với thiên nhiên</strong>. Sân vườn được thiết kế tốt sẽ trở thành không gian sống yêu thích nhất của cả gia đình.</p>
     <ul>
       <li><strong>Khu BBQ/nướng ngoài trời:</strong> Built-in grill, bàn ghế outdoor chất lượng, đèn string light — không gian tụ họp gia đình mỗi cuối tuần</li>
@@ -3229,7 +3261,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <p>tenD kế thừa năng lực thiết kế biệt thự cao cấp của Công ty Tân Cổ Điển — tiên phong về nội thất đẳng cấp tại Việt Nam từ 2009.</p>
       <div class="article-cta-btns">
         <a href="tel:0973858666" class="btn btn-gold">0973.858.666</a>
-        <a href="/cdn-cgi/l/email-protection#c5adac85b1a0aba1ebb3ab" class="btn btn-ghost">info@tenD.vn</a>
+        <a href="mailto:info@tend.vn" class="btn btn-ghost">info@tenD.vn</a>
       </div>
     </div>
   </div>
@@ -3237,8 +3269,8 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-b1')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Chi phí hoàn thiện biệt thự và liền kề — con số thực tế</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-b4')"><div class="ri-cat">Vinhomes · Thủ tục</div><div class="ri-title">Thủ tục hoàn thiện biệt thự và liền kề — khác gì so với chung cư?</div></div>
+      <a class="related-item" href="#article-bai-b1" onclick="return followBlogLink(event,'bai-b1')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Chi phí hoàn thiện biệt thự và liền kề — con số thực tế</div></a>
+      <a class="related-item" href="#article-bai-b4" onclick="return followBlogLink(event,'bai-b4')"><div class="ri-cat">Vinhomes · Thủ tục</div><div class="ri-title">Thủ tục hoàn thiện biệt thự và liền kề — khác gì so với chung cư?</div></a>
     </div>
   </div>
 </div>
@@ -3251,6 +3283,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <div id="article-bai-b4" class="article-page">
   <div class="article-header">
     <div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
       <span class="ah-cat">Vinhomes · Thủ tục</span>
       <h1 class="ah-title">Thủ tục hoàn thiện biệt thự và liền kề tại Vinhomes — khác gì so với chung cư?</h1>
       <div class="ah-meta">
@@ -3262,7 +3295,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     </div>
   </div>
 
-  <div class="article-body">
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/planning.jpg" width="1536" height="1024" alt="Chuẩn bị bản vẽ và hồ sơ trước khi cải tạo" loading="lazy" decoding="async" data-blog-cover="bai-b4"></figure>
     <p>Nhiều chủ nhà biệt thự và liền kề Vinhomes nghĩ rằng thủ tục hoàn thiện sẽ phức tạp hơn chung cư rất nhiều — phải xin giấy phép xây dựng từ quận, phải qua nhiều cơ quan Nhà nước. Thực tế không phải vậy.</p>
     <p><strong>Thủ tục hoàn thiện biệt thự và liền kề tại Vinhomes về cơ bản giống chung cư — đều thông qua Ban quản lý khu đô thị Vinhomes.</strong> Bạn không cần xin giấy phép xây dựng từ cơ quan Nhà nước cho việc hoàn thiện nội thất.</p>
     <p>Tuy nhiên, biệt thự và liền kề có những điểm khác biệt riêng mà nếu không nắm rõ, bạn sẽ mất thêm thời gian và chi phí không đáng.</p>
@@ -3299,7 +3332,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
       <li><strong>Sân vườn:</strong> Loại cây trồng, vật liệu lát sân, bể bơi (nếu có) — đều cần xin phép.</li>
     </ul>
 
-    <h3>3. Che chắn khi thi công — yêu cầu bắt buộc</h3>
+    <h3>3. Che chắn khi thi công — yêu cầu bắt buộc</h3><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="3. Che chắn khi thi công — yêu cầu bắt buộc"><img src="images/blog-site-inspection.jpg" alt="Tổ chức mặt bằng và kiểm tra hiện trạng trong quá trình hoàn thiện." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b4:image-1" data-blog-inline="bai-b4"><figcaption>Tổ chức mặt bằng và kiểm tra hiện trạng trong quá trình hoàn thiện.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Đây là điểm khác biệt quan trọng nhất so với chung cư. Khi thi công biệt thự/liền kề, BQL Vinhomes yêu cầu:</p>
     <ul>
       <li><strong>Dựng hàng rào che chắn</strong> xung quanh công trình trong suốt quá trình thi công — bảo vệ mỹ quan khu đô thị và đảm bảo an toàn cho hàng xóm.</li>
@@ -3312,7 +3347,9 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
     <h3>4. Hầm để xe và hạ tầng ngầm</h3>
     <p>Nhiều biệt thự Vinhomes có tầng hầm. Cải tạo hầm (chống thấm, lát sàn, đi ống nước, điện) cần xin phép riêng vì liên quan đến hạ tầng ngầm của khu đô thị. BQL kiểm tra kỹ hơn để đảm bảo không ảnh hưởng đến hệ thống thoát nước và điện chung.</p>
 
-    <h2>Hồ sơ xin phép BQL — biệt thự & liền kề</h2>
+    <h2>Hồ sơ xin phép BQL — biệt thự & liền kề</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Hồ sơ xin phép BQL — biệt thự &amp; liền kề"><img src="images/blog-materials-budget.jpg" alt="Chuẩn bị bản vẽ và phương án hoàn thiện trước khi triển khai." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="bai-b4:image-2"><figcaption>Chuẩn bị bản vẽ và phương án hoàn thiện trước khi triển khai.</figcaption></figure>
+<!-- blog-illustration:end -->
     <p>Hồ sơ cơ bản giống chung cư, nhưng cần bổ sung thêm cho phần nhiều tầng và mặt ngoài:</p>
 
     <div class="timeline">
@@ -3401,15 +3438,113 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   <div class="related">
     <div class="related-title">Bài viết liên quan</div>
     <div class="related-grid">
-      <div class="related-item" onclick="showBlogArticle('bai-b1')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Chi phí hoàn thiện biệt thự và liền kề — con số thực tế</div></div>
-      <div class="related-item" onclick="showBlogArticle('bai-b3')"><div class="ri-cat">Thiết kế · Biệt thự</div><div class="ri-title">Thiết kế nội thất biệt thự — những điểm khác hoàn toàn so với chung cư</div></div>
+      <a class="related-item" href="#article-bai-b1" onclick="return followBlogLink(event,'bai-b1')"><div class="ri-cat">Tài chính · Biệt thự</div><div class="ri-title">Chi phí hoàn thiện biệt thự và liền kề — con số thực tế</div></a>
+      <a class="related-item" href="#article-bai-b3" onclick="return followBlogLink(event,'bai-b3')"><div class="ri-cat">Thiết kế · Biệt thự</div><div class="ri-title">Thiết kế nội thất biệt thự — những điểm khác hoàn toàn so với chung cư</div></a>
     </div>
   </div>
 </div>
 
+<div id="article-ve-tend-1" class="article-page">
+  <div class="article-header"><div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
+    <span class="ah-cat">Về tenD</span>
+    <h1 class="ah-title">Người đứng sau tenD — Từ xưởng mộc Tân Cổ Điển đến khu đô thị</h1>
+    <div class="ah-meta"><span>15/3/2025</span><span class="ah-sep"></span><span>5 phút đọc</span></div>
+  </div></div>
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/workshop.jpg" width="1600" height="800" alt="Không gian sản xuất và lắp ráp đồ mộc" loading="lazy" decoding="async" data-blog-cover="ve-tend-1"></figure>
+    <p>tenD không phải startup non trẻ. Đằng sau là <strong>Công ty TNHH Tân Cổ Điển (New Roma)</strong> — hoạt động trong ngành nội thất và thi công hơn 15 năm, với xưởng sản xuất riêng tại KCN Apec, Từ Sơn, Bắc Ninh.</p>
+    <h2>Từ xưởng mộc truyền thống đến khu đô thị hiện đại</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Từ xưởng mộc truyền thống đến khu đô thị hiện đại"><img src="images/blog-joinery-workshop.jpg" alt="Gia công và lắp ráp từng chi tiết đồ mộc cần sự chính xác." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="ve-tend-1:image-1" data-blog-inline="ve-tend-1"><figcaption>Gia công và lắp ráp từng chi tiết đồ mộc cần sự chính xác.</figcaption></figure>
+<!-- blog-illustration:end -->
+    <p>Tân Cổ Điển khởi đầu là xưởng sản xuất đồ nội thất gỗ — phục vụ công trình nhà dân, biệt thự và thương mại trên khắp miền Bắc. Qua 15 năm, đội ngũ tích lũy kinh nghiệm từ hàng trăm dự án: từ nhà phố Hà Nội đến biệt thự Ecopark, từ chung cư Times City đến căn hộ Vinhomes.</p>
+    <p>Năm 2023, nhận thấy nhu cầu đặc thù của chủ nhà khu đô thị — bận rộn, ở xa, cần một đầu mối lo trọn — thương hiệu <strong>tenD</strong> ra đời. tenD kế thừa toàn bộ năng lực sản xuất, đội thợ lành nghề và quy trình quản lý chất lượng của Tân Cổ Điển.</p>
+    <h2>Triết lý làm việc</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Triết lý làm việc"><img src="images/blog-contractor-consultation.jpg" alt="Thống nhất bản vẽ và mẫu vật liệu giúp các bên có cùng kỳ vọng." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="ve-tend-1:image-2"><figcaption>Thống nhất bản vẽ và mẫu vật liệu giúp các bên có cùng kỳ vọng.</figcaption></figure>
+<!-- blog-illustration:end -->
+    <p>"Chúng tôi không bán dịch vụ thi công. Chúng tôi bán sự yên tâm." — Mỗi dự án không chỉ là hoàn thiện bốn bức tường mà là giúp chủ nhà biến tài sản tiền tỷ thành không gian sống đáng tự hào hoặc nguồn thu nhập thụ động ổn định.</p>
+    <h2>Con số thực tế</h2>
+    <ul>
+      <li><strong>15+ năm</strong> hoạt động liên tục</li>
+      <li><strong>500+ dự án</strong> đã hoàn thiện — từ 50m² đến 300m²</li>
+      <li><strong>Xưởng sản xuất riêng</strong> tại KCN Apec, Từ Sơn, Bắc Ninh</li>
+      <li><strong>VP Hà Nội</strong> tại 477 Minh Khai, Hai Bà Trưng</li>
+      <li><strong>Bảo hành 24 tháng</strong> cho mọi hạng mục</li>
+    </ul>
+    <h2>Tại sao chọn tên "tenD"?</h2>
+    <p>"ten" — từ "attend" (chăm sóc). "D" — "Design" và "Dwelling" (nơi ở). tenD là sự chăm sóc tận tâm cho nơi ở của bạn. "Wake up your property" — đánh thức giá trị căn nhà đang ngủ quên.</p>
+    <div class="article-cta"><h3>Gặp gỡ đội ngũ tenD</h3><p>Đến thăm văn phòng hoặc xưởng sản xuất bất kỳ lúc nào trong giờ làm việc.</p><div class="article-cta-btns"><a href="tel:0973858666" class="btn btn-gold">0973.858.666</a><a href="https://zalo.me/0973858666" class="btn btn-ghost" target="_blank">Nhắn Zalo</a></div></div>
+  </div>
+  <div class="related"><div class="related-title">Bài viết liên quan</div><div class="related-grid"><a class="related-item" href="#article-ve-tend-2" onclick="return followBlogLink(event,'ve-tend-2')"><div class="ri-cat">Về tenD</div><div class="ri-title">Bên trong xưởng sản xuất Tân Cổ Điển</div></a><a class="related-item" href="#article-ve-tend-3" onclick="return followBlogLink(event,'ve-tend-3')"><div class="ri-cat">Về tenD</div><div class="ri-title">Một ngày trên công trường tenD</div></a></div></div>
 </div>
 
+<div id="article-ve-tend-2" class="article-page">
+  <div class="article-header"><div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
+    <span class="ah-cat">Về tenD</span>
+    <h1 class="ah-title">Bên trong xưởng sản xuất Tân Cổ Điển — nơi mọi sản phẩm bắt đầu</h1>
+    <div class="ah-meta"><span>10/3/2025</span><span class="ah-sep"></span><span>4 phút đọc</span></div>
+  </div></div>
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/workshop.jpg" width="1600" height="800" alt="Thiết bị gia công và các module tủ tại xưởng" loading="lazy" decoding="async" data-blog-cover="ve-tend-2"></figure>
+    <p>Khác với nhiều đơn vị "gia công bên ngoài", tenD có <strong>xưởng sản xuất riêng</strong> tại KCN Apec, Đa Hội, Từ Sơn, Bắc Ninh. Toàn bộ tủ bếp, tủ áo, kệ tivi, bàn làm việc được sản xuất tại đây trước khi vận chuyển đến công trình.</p>
+    <h2>Xưởng sản xuất — không phải showroom</h2>
+    <p>Đây là nơi sản xuất thật: máy cắt CNC, máy dán cạnh tự động, máy khoan dàn, khu phun sơn kín, kho vật liệu luôn có hàng sẵn. Mỗi sản phẩm theo bản vẽ kỹ thuật riêng từng dự án — không phải hàng đại trà.</p>
+    <h2>Quy trình sản xuất</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Quy trình sản xuất"><img src="images/blog-joinery-workshop.jpg" alt="Kiểm tra mối ghép và kích thước module tủ trước khi hoàn thiện bề mặt." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="ve-tend-2:image-1" data-blog-inline="ve-tend-2"><figcaption>Kiểm tra mối ghép và kích thước module tủ trước khi hoàn thiện bề mặt.</figcaption></figure>
+<!-- blog-illustration:end -->
+    <ul>
+      <li><strong>Tách bản vẽ:</strong> Từ 3D, đội kỹ thuật tách chi tiết từng tấm panel: kích thước, vật liệu, phụ kiện.</li>
+      <li><strong>Cắt CNC:</strong> Sai số dưới 0.5mm.</li>
+      <li><strong>Dán cạnh tự động:</strong> Viền đều, bền, không bong tróc.</li>
+      <li><strong>Lắp ráp thử:</strong> Mỗi bộ tủ lắp ráp thử tại xưởng trước khi đóng gói.</li>
+      <li><strong>Phun sơn:</strong> Phòng kín, sấy khô đúng quy trình.</li>
+    </ul>
+    <h2>Tại sao xưởng riêng quan trọng?</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Tại sao xưởng riêng quan trọng?"><img src="images/kitchen.jpg" alt="Các module được kết nối thành hệ tủ hoàn chỉnh khi lắp đặt tại nhà." width="1536" height="1024" loading="lazy" decoding="async" data-blog-illustration="ve-tend-2:image-2"><figcaption>Các module được kết nối thành hệ tủ hoàn chỉnh khi lắp đặt tại nhà.</figcaption></figure>
+<!-- blog-illustration:end -->
+    <ul>
+      <li><strong>Kiểm soát chất lượng:</strong> Mọi sản phẩm do chính đội ngũ sản xuất.</li>
+      <li><strong>Tiết kiệm chi phí:</strong> Không markup từ nhà cung cấp ngoài.</li>
+      <li><strong>Linh hoạt thiết kế:</strong> Kích thước tùy chỉnh theo căn nhà.</li>
+      <li><strong>Đúng tiến độ:</strong> Chủ động lịch sản xuất.</li>
+    </ul>
+    <div class="callout callout-gold"><div class="callout-title">Đến thăm xưởng</div><p>Xưởng Tân Cổ Điển luôn mở cửa cho khách tham quan. Cách Hà Nội ~40 phút. Liên hệ 0973.858.666 để đặt lịch.</p></div>
+    <div class="article-cta"><h3>Muốn xem xưởng tận mắt?</h3><p>Đặt lịch thăm xưởng — miễn phí, không ràng buộc.</p><div class="article-cta-btns"><a href="tel:0973858666" class="btn btn-gold">0973.858.666</a><a href="https://zalo.me/0973858666" class="btn btn-ghost" target="_blank">Nhắn Zalo</a></div></div>
+  </div>
+  <div class="related"><div class="related-title">Bài viết liên quan</div><div class="related-grid"><a class="related-item" href="#article-ve-tend-1" onclick="return followBlogLink(event,'ve-tend-1')"><div class="ri-cat">Về tenD</div><div class="ri-title">Người đứng sau tenD</div></a><a class="related-item" href="#article-ve-tend-3" onclick="return followBlogLink(event,'ve-tend-3')"><div class="ri-cat">Về tenD</div><div class="ri-title">Một ngày trên công trường tenD</div></a></div></div>
 </div>
+
+<div id="article-ve-tend-3" class="article-page">
+  <div class="article-header"><div class="ah-inner">
+      <a href="#blog" class="article-back">← Tất cả bài viết</a>
+    <span class="ah-cat">Về tenD</span>
+    <h1 class="ah-title">Một ngày trên công trường tenD — quy trình giám sát và báo cáo thực tế</h1>
+    <div class="ah-meta"><span>5/3/2025</span><span class="ah-sep"></span><span>5 phút đọc</span></div>
+  </div></div>
+  <div class="article-body"><figure class="article-photo article-photo-cover"><img src="images/site.jpg" width="1536" height="1024" alt="Các hạng mục hoàn thiện trong căn hộ đang thi công" loading="lazy" decoding="async" data-blog-cover="ve-tend-3"></figure>
+    <p>Bạn ký hợp đồng xong, đi công tác 3 tháng — khi quay lại, nhà đã hoàn thiện. Nhưng 3 tháng đó, chuyện gì xảy ra trên công trường?</p>
+    <h2>7:30 — Họp đầu ngày</h2>
+    <p>Đội trưởng họp nhanh 15 phút: kiểm tra tiến độ hôm qua, phân công hôm nay, nhắc lưu ý kỹ thuật. Mọi phát sinh ghi vào sổ nhật ký công trình.</p>
+    <h2>8:00–11:30 — Thi công buổi sáng</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="8:00–11:30 — Thi công buổi sáng"><img src="images/blog-site-inspection.jpg" alt="Đo đạc và đối chiếu bản vẽ tại công trường trong quá trình thi công." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="ve-tend-3:image-1" data-blog-inline="ve-tend-3"><figcaption>Đo đạc và đối chiếu bản vẽ tại công trường trong quá trình thi công.</figcaption></figure>
+<!-- blog-illustration:end -->
+    <p>Thợ làm theo khung giờ quy định BQL khu đô thị. Mỗi thợ có bản vẽ kỹ thuật riêng. Đội trưởng giám sát liên tục, đo đạc sau mỗi công đoạn.</p>
+    <h2>11:30 — Chụp ảnh tiến độ</h2>
+    <p>Mỗi ngày, đội trưởng chụp ảnh từ nhiều góc → gửi vào group Zalo riêng của dự án — chủ nhà, thiết kế, quản lý dự án cùng theo dõi.</p>
+    <h2>13:30–17:00 — Thi công + Dọn dẹp</h2>
+    <p>16:30 dọn dẹp, vệ sinh. Tại khu đô thị, vệ sinh hành lang, thang máy, sảnh chung là bắt buộc — tenD có quy trình riêng: trải bạt bảo vệ, dọn rác đúng quy định.</p>
+    <h2>17:00 — Báo cáo cuối ngày</h2>
+    <p>Đội trưởng gửi tóm tắt vào group Zalo: hạng mục xong, kế hoạch ngày mai, phát sinh (nếu có). Chủ nhà luôn nắm tiến độ dù không có mặt.</p>
+    <h2>Mỗi tuần — Báo cáo tổng hợp</h2><!-- blog-illustration:start -->
+<figure class="article-photo blog-illustration" data-after-heading="Mỗi tuần — Báo cáo tổng hợp"><img src="images/blog-materials-budget.jpg" alt="Đối chiếu bản vẽ, vật liệu và kế hoạch khi tổng hợp tiến độ." width="1600" height="900" loading="lazy" decoding="async" data-blog-illustration="ve-tend-3:image-2"><figcaption>Đối chiếu bản vẽ, vật liệu và kế hoạch khi tổng hợp tiến độ.</figcaption></figure>
+<!-- blog-illustration:end -->
+    <p>Thứ 6 hàng tuần: so sánh tiến độ thực tế vs kế hoạch, ảnh before/after, dự kiến tuần sau, và quyết định cần chủ nhà duyệt.</p>
+    <div class="callout callout-dark"><div class="callout-title">Cam kết minh bạch</div><p>Bạn không cần đến công trường. Nhưng luôn biết chính xác chuyện gì xảy ra — qua ảnh, video, báo cáo Zalo hàng tuần. Phát sinh tenD báo ngay — không tự ý quyết định thay bạn.</p></div>
+    <div class="article-cta"><h3>Muốn xem ảnh công trường thực tế?</h3><p>Gọi tenD — xem ảnh/video từ công trường đang thi công ngay lúc này.</p><div class="article-cta-btns"><a href="tel:0973858666" class="btn btn-gold">0973.858.666</a><a href="https://zalo.me/0973858666" class="btn btn-ghost" target="_blank">Nhắn Zalo</a></div></div>
+  </div>
+  <div class="related"><div class="related-title">Bài viết liên quan</div><div class="related-grid"><a class="related-item" href="#article-ve-tend-1" onclick="return followBlogLink(event,'ve-tend-1')"><div class="ri-cat">Về tenD</div><div class="ri-title">Người đứng sau tenD</div></a><a class="related-item" href="#article-ve-tend-2" onclick="return followBlogLink(event,'ve-tend-2')"><div class="ri-cat">Về tenD</div><div class="ri-title">Bên trong xưởng sản xuất</div></a></div></div>
+</div>
+
+</div><!-- end page-blog -->
 
 
 <!-- ════════════════════════════
@@ -3419,7 +3554,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
 <div id="page-svc-thu-tuc" class="page-view">
   <div class="page-hero">
-    <div class="page-hero-bg"></div>
+    <div class="page-hero-bg"><img src="images/planning.jpg" alt="" loading="lazy" decoding="async" class="page-cover" data-visual-slot="hero-svc-thu-tuc"></div>
     <div class="ph-inner">
       <div class="ph-eyebrow">Dịch vụ 01</div>
       <h1 class="ph-title">Thủ tục &<br>Đăng ký cải tạo.</h1>
@@ -3428,7 +3563,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   </div>
   <div style="background:var(--white);">
     <div class="service-content active" style="display:grid;">
-      <div class="sc-main">
+      <div class="sc-main"><figure class="service-photo"><img src="images/planning.jpg" alt="Bản vẽ và hồ sơ chuẩn bị cải tạo" loading="lazy" decoding="async"  data-visual-slot="service-0"></figure>
         <h3>tenD làm gì trong bước này?</h3>
         <p>Vinhomes có hệ thống quy định cải tạo riêng — khác nhau giữa từng khu, từng tòa nhà. Để bắt đầu thi công, chủ nhà phải xin phép ban quản lý với bộ hồ sơ đúng chuẩn. Nếu thiếu một giấy tờ, hồ sơ bị trả về và phải làm lại từ đầu.</p>
         <p>tenD đã thực hiện thủ tục này tại nhiều khu Vinhomes khác nhau. <strong>Chúng tôi biết chính xác hồ sơ cần gì, nộp ở đâu, ai phụ trách phê duyệt và thường mất bao nhiêu ngày.</strong></p>
@@ -3505,7 +3640,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
 <div id="page-svc-thiet-ke" class="page-view">
   <div class="page-hero">
-    <div class="page-hero-bg"></div>
+    <div class="page-hero-bg"><img src="images/kitchen.jpg" alt="" loading="lazy" decoding="async" class="page-cover" data-visual-slot="hero-svc-thiet-ke"></div>
     <div class="ph-inner">
       <div class="ph-eyebrow">Dịch vụ 02</div>
       <h1 class="ph-title">Thiết kế<br>nội thất.</h1>
@@ -3514,7 +3649,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   </div>
   <div style="background:var(--white);">
     <div class="service-content active" style="display:grid;">
-      <div class="sc-main">
+      <div class="sc-main"><figure class="service-photo"><img src="images/kitchen.jpg" alt="Thiết kế bếp và lựa chọn vật liệu" loading="lazy" decoding="async"  data-visual-slot="service-1"></figure>
         <h3>Quy trình thiết kế của tenD</h3>
         <p>tenD không thiết kế theo mẫu có sẵn. Mỗi căn hộ là một bài toán riêng — diện tích, ánh sáng, mục đích sử dụng, phong cách bạn thích. <strong>Và đặc biệt: thiết kế phải phục vụ được cả hai mục đích — ở và cho thuê.</strong></p>
         <p>Điều ít đơn vị nghĩ đến: một căn thiết kế chỉ để ở sẽ khó cho thuê. Một căn thiết kế chỉ để cho thuê sẽ không có cá tính để chủ nhà tự hào. tenD thiết kế cho cả hai — bài toán cân bằng mà chúng tôi đã giải qua nhiều dự án thực tế.</p>
@@ -3592,7 +3727,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
 <div id="page-svc-thi-cong" class="page-view">
   <div class="page-hero">
-    <div class="page-hero-bg"></div>
+    <div class="page-hero-bg"><img src="images/site.jpg" alt="" loading="lazy" decoding="async" class="page-cover" data-visual-slot="hero-svc-thi-cong"></div>
     <div class="ph-inner">
       <div class="ph-eyebrow">Dịch vụ 03</div>
       <h1 class="ph-title">Thi công<br>& Giám sát.</h1>
@@ -3601,7 +3736,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   </div>
   <div style="background:var(--white);">
     <div class="service-content active" style="display:grid;">
-      <div class="sc-main">
+      <div class="sc-main"><figure class="service-photo"><img src="images/site.jpg" alt="Các hạng mục thi công nội thất" loading="lazy" decoding="async"  data-visual-slot="service-2"></figure>
         <h3>tenD thi công như thế nào?</h3>
         <p>Phần lớn sự cố trong thi công xảy ra vì thiếu giám sát, thiếu giao tiếp. Thợ tự làm theo cách của họ, không ai kiểm tra, khách hàng không biết — đến khi bàn giao mới phát hiện vấn đề.</p>
         <p><strong>tenD có kỹ sư giám sát có mặt thường xuyên tại công trình.</strong> Không phải kiểm tra định kỳ — mà theo dõi xuyên suốt. Mỗi khi có vấn đề kỹ thuật, kỹ sư phát hiện và xử lý trước khi nó trở thành sự cố lớn.</p>
@@ -3681,7 +3816,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
 <div id="page-svc-ban-giao" class="page-view">
   <div class="page-hero">
-    <div class="page-hero-bg"></div>
+    <div class="page-hero-bg"><img src="images/bedroom.jpg" alt="" loading="lazy" decoding="async" class="page-cover" data-visual-slot="hero-svc-ban-giao"></div>
     <div class="ph-inner">
       <div class="ph-eyebrow">Dịch vụ 04</div>
       <h1 class="ph-title">Bàn giao<br>& Kích hoạt.</h1>
@@ -3690,7 +3825,7 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
   </div>
   <div style="background:var(--white);">
     <div class="service-content active" style="display:grid;">
-      <div class="sc-main">
+      <div class="sc-main"><figure class="service-photo"><img src="images/japandi-living.jpg" alt="Không gian sống hoàn thiện" loading="lazy" decoding="async"  data-visual-slot="service-3"></figure>
         <h3>Bàn giao đúng nghĩa.</h3>
         <p>Nhiều đơn vị "bàn giao" có nghĩa là: trao chìa khóa rồi ra về. Khách nhận nhà xong tự phát hiện vòi nước rò, đèn không sáng, sơn chưa khô, nội thất chưa lắp đủ.</p>
         <p><strong>tenD bàn giao theo quy trình nghiêm túc:</strong> dọn dẹp toàn bộ công trình, kiểm tra từng hạng mục theo checklist, lắp đặt và kết nối tất cả thiết bị, thử nghiệm trước khi mời khách vào nhận.</p>
@@ -3922,90 +4057,11 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 
 
 
-<div id="article-ve-tend-1" class="article-page">
-  <div class="article-header"><div class="ah-inner">
-    <span class="ah-cat">Về tenD</span>
-    <h1 class="ah-title">Người đứng sau tenD — Từ xưởng mộc Tân Cổ Điển đến khu đô thị</h1>
-    <div class="ah-meta"><span>15/3/2025</span><span class="ah-sep"></span><span>5 phút đọc</span></div>
-  </div></div>
-  <div class="article-body">
-    <p>tenD không phải startup non trẻ. Đằng sau là <strong>Công ty TNHH Tân Cổ Điển (New Roma)</strong> — hoạt động trong ngành nội thất và thi công hơn 15 năm, với xưởng sản xuất riêng tại KCN Apec, Từ Sơn, Bắc Ninh.</p>
-    <h2>Từ xưởng mộc truyền thống đến khu đô thị hiện đại</h2>
-    <p>Tân Cổ Điển khởi đầu là xưởng sản xuất đồ nội thất gỗ — phục vụ công trình nhà dân, biệt thự và thương mại trên khắp miền Bắc. Qua 15 năm, đội ngũ tích lũy kinh nghiệm từ hàng trăm dự án: từ nhà phố Hà Nội đến biệt thự Ecopark, từ chung cư Times City đến căn hộ Vinhomes.</p>
-    <p>Năm 2023, nhận thấy nhu cầu đặc thù của chủ nhà khu đô thị — bận rộn, ở xa, cần một đầu mối lo trọn — thương hiệu <strong>tenD</strong> ra đời. tenD kế thừa toàn bộ năng lực sản xuất, đội thợ lành nghề và quy trình quản lý chất lượng của Tân Cổ Điển.</p>
-    <h2>Triết lý làm việc</h2>
-    <p>"Chúng tôi không bán dịch vụ thi công. Chúng tôi bán sự yên tâm." — Mỗi dự án không chỉ là hoàn thiện bốn bức tường mà là giúp chủ nhà biến tài sản tiền tỷ thành không gian sống đáng tự hào hoặc nguồn thu nhập thụ động ổn định.</p>
-    <h2>Con số thực tế</h2>
-    <ul>
-      <li><strong>15+ năm</strong> hoạt động liên tục</li>
-      <li><strong>500+ dự án</strong> đã hoàn thiện — từ 50m² đến 300m²</li>
-      <li><strong>Xưởng sản xuất riêng</strong> tại KCN Apec, Từ Sơn, Bắc Ninh</li>
-      <li><strong>VP Hà Nội</strong> tại 477 Minh Khai, Hai Bà Trưng</li>
-      <li><strong>Bảo hành 24 tháng</strong> cho mọi hạng mục</li>
-    </ul>
-    <h2>Tại sao chọn tên "tenD"?</h2>
-    <p>"ten" — từ "attend" (chăm sóc). "D" — "Design" và "Dwelling" (nơi ở). tenD là sự chăm sóc tận tâm cho nơi ở của bạn. "Wake up your property" — đánh thức giá trị căn nhà đang ngủ quên.</p>
-    <div class="article-cta"><h3>Gặp gỡ đội ngũ tenD</h3><p>Đến thăm văn phòng hoặc xưởng sản xuất bất kỳ lúc nào trong giờ làm việc.</p><div class="article-cta-btns"><a href="tel:0973858666" class="btn btn-gold">0973.858.666</a><a href="https://zalo.me/0973858666" class="btn btn-ghost" target="_blank">Nhắn Zalo</a></div></div>
-  </div>
-  <div class="related"><div class="related-title">Bài viết liên quan</div><div class="related-grid"><div class="related-item" onclick="showBlogArticle('ve-tend-2')"><div class="ri-cat">Về tenD</div><div class="ri-title">Bên trong xưởng sản xuất Tân Cổ Điển</div></div><div class="related-item" onclick="showBlogArticle('ve-tend-3')"><div class="ri-cat">Về tenD</div><div class="ri-title">Một ngày trên công trường tenD</div></div></div></div>
-</div>
 
-<div id="article-ve-tend-2" class="article-page">
-  <div class="article-header"><div class="ah-inner">
-    <span class="ah-cat">Về tenD</span>
-    <h1 class="ah-title">Bên trong xưởng sản xuất Tân Cổ Điển — nơi mọi sản phẩm bắt đầu</h1>
-    <div class="ah-meta"><span>10/3/2025</span><span class="ah-sep"></span><span>4 phút đọc</span></div>
-  </div></div>
-  <div class="article-body">
-    <p>Khác với nhiều đơn vị "gia công bên ngoài", tenD có <strong>xưởng sản xuất riêng</strong> tại KCN Apec, Đa Hội, Từ Sơn, Bắc Ninh. Toàn bộ tủ bếp, tủ áo, kệ tivi, bàn làm việc được sản xuất tại đây trước khi vận chuyển đến công trình.</p>
-    <h2>Xưởng sản xuất — không phải showroom</h2>
-    <p>Đây là nơi sản xuất thật: máy cắt CNC, máy dán cạnh tự động, máy khoan dàn, khu phun sơn kín, kho vật liệu luôn có hàng sẵn. Mỗi sản phẩm theo bản vẽ kỹ thuật riêng từng dự án — không phải hàng đại trà.</p>
-    <h2>Quy trình sản xuất</h2>
-    <ul>
-      <li><strong>Tách bản vẽ:</strong> Từ 3D, đội kỹ thuật tách chi tiết từng tấm panel: kích thước, vật liệu, phụ kiện.</li>
-      <li><strong>Cắt CNC:</strong> Sai số dưới 0.5mm.</li>
-      <li><strong>Dán cạnh tự động:</strong> Viền đều, bền, không bong tróc.</li>
-      <li><strong>Lắp ráp thử:</strong> Mỗi bộ tủ lắp ráp thử tại xưởng trước khi đóng gói.</li>
-      <li><strong>Phun sơn:</strong> Phòng kín, sấy khô đúng quy trình.</li>
-    </ul>
-    <h2>Tại sao xưởng riêng quan trọng?</h2>
-    <ul>
-      <li><strong>Kiểm soát chất lượng:</strong> Mọi sản phẩm do chính đội ngũ sản xuất.</li>
-      <li><strong>Tiết kiệm chi phí:</strong> Không markup từ nhà cung cấp ngoài.</li>
-      <li><strong>Linh hoạt thiết kế:</strong> Kích thước tùy chỉnh theo căn nhà.</li>
-      <li><strong>Đúng tiến độ:</strong> Chủ động lịch sản xuất.</li>
-    </ul>
-    <div class="callout callout-gold"><div class="callout-title">Đến thăm xưởng</div><p>Xưởng Tân Cổ Điển luôn mở cửa cho khách tham quan. Cách Hà Nội ~40 phút. Liên hệ 0973.858.666 để đặt lịch.</p></div>
-    <div class="article-cta"><h3>Muốn xem xưởng tận mắt?</h3><p>Đặt lịch thăm xưởng — miễn phí, không ràng buộc.</p><div class="article-cta-btns"><a href="tel:0973858666" class="btn btn-gold">0973.858.666</a><a href="https://zalo.me/0973858666" class="btn btn-ghost" target="_blank">Nhắn Zalo</a></div></div>
-  </div>
-  <div class="related"><div class="related-title">Bài viết liên quan</div><div class="related-grid"><div class="related-item" onclick="showBlogArticle('ve-tend-1')"><div class="ri-cat">Về tenD</div><div class="ri-title">Người đứng sau tenD</div></div><div class="related-item" onclick="showBlogArticle('ve-tend-3')"><div class="ri-cat">Về tenD</div><div class="ri-title">Một ngày trên công trường tenD</div></div></div></div>
-</div>
 
-<div id="article-ve-tend-3" class="article-page">
-  <div class="article-header"><div class="ah-inner">
-    <span class="ah-cat">Về tenD</span>
-    <h1 class="ah-title">Một ngày trên công trường tenD — quy trình giám sát và báo cáo thực tế</h1>
-    <div class="ah-meta"><span>5/3/2025</span><span class="ah-sep"></span><span>5 phút đọc</span></div>
-  </div></div>
-  <div class="article-body">
-    <p>Bạn ký hợp đồng xong, đi công tác 3 tháng — khi quay lại, nhà đã hoàn thiện. Nhưng 3 tháng đó, chuyện gì xảy ra trên công trường?</p>
-    <h2>7:30 — Họp đầu ngày</h2>
-    <p>Đội trưởng họp nhanh 15 phút: kiểm tra tiến độ hôm qua, phân công hôm nay, nhắc lưu ý kỹ thuật. Mọi phát sinh ghi vào sổ nhật ký công trình.</p>
-    <h2>8:00–11:30 — Thi công buổi sáng</h2>
-    <p>Thợ làm theo khung giờ quy định BQL khu đô thị. Mỗi thợ có bản vẽ kỹ thuật riêng. Đội trưởng giám sát liên tục, đo đạc sau mỗi công đoạn.</p>
-    <h2>11:30 — Chụp ảnh tiến độ</h2>
-    <p>Mỗi ngày, đội trưởng chụp ảnh từ nhiều góc → gửi vào group Zalo riêng của dự án — chủ nhà, thiết kế, quản lý dự án cùng theo dõi.</p>
-    <h2>13:30–17:00 — Thi công + Dọn dẹp</h2>
-    <p>16:30 dọn dẹp, vệ sinh. Tại khu đô thị, vệ sinh hành lang, thang máy, sảnh chung là bắt buộc — tenD có quy trình riêng: trải bạt bảo vệ, dọn rác đúng quy định.</p>
-    <h2>17:00 — Báo cáo cuối ngày</h2>
-    <p>Đội trưởng gửi tóm tắt vào group Zalo: hạng mục xong, kế hoạch ngày mai, phát sinh (nếu có). Chủ nhà luôn nắm tiến độ dù không có mặt.</p>
-    <h2>Mỗi tuần — Báo cáo tổng hợp</h2>
-    <p>Thứ 6 hàng tuần: so sánh tiến độ thực tế vs kế hoạch, ảnh before/after, dự kiến tuần sau, và quyết định cần chủ nhà duyệt.</p>
-    <div class="callout callout-dark"><div class="callout-title">Cam kết minh bạch</div><p>Bạn không cần đến công trường. Nhưng luôn biết chính xác chuyện gì xảy ra — qua ảnh, video, báo cáo Zalo hàng tuần. Phát sinh tenD báo ngay — không tự ý quyết định thay bạn.</p></div>
-    <div class="article-cta"><h3>Muốn xem ảnh công trường thực tế?</h3><p>Gọi tenD — xem ảnh/video từ công trường đang thi công ngay lúc này.</p><div class="article-cta-btns"><a href="tel:0973858666" class="btn btn-gold">0973.858.666</a><a href="https://zalo.me/0973858666" class="btn btn-ghost" target="_blank">Nhắn Zalo</a></div></div>
-  </div>
-  <div class="related"><div class="related-title">Bài viết liên quan</div><div class="related-grid"><div class="related-item" onclick="showBlogArticle('ve-tend-1')"><div class="ri-cat">Về tenD</div><div class="ri-title">Người đứng sau tenD</div></div><div class="related-item" onclick="showBlogArticle('ve-tend-2')"><div class="ri-cat">Về tenD</div><div class="ri-title">Bên trong xưởng sản xuất</div></div></div></div>
-</div>
+
+
+
 
 <!-- ═══ GLOBAL FOOTER ═══ -->
 <footer>
@@ -4061,7 +4117,11 @@ body{font-family:'DM Sans',sans-serif;overflow-x:hidden;max-width:100vw;color:va
 <!-- ═══ JAVASCRIPT ═══ -->
 <script>
 // SPA Navigation
-function navigateTo(pageId) {
+var siteTitle = document.title;
+function navigateTo(pageId, options) {
+  options = options || {};
+  if (!document.getElementById('page-' + pageId)) pageId = 'home';
+  document.title = siteTitle;
   // Hide all pages
   document.querySelectorAll('.page-view').forEach(function(p) { p.classList.remove('active'); });
   
@@ -4073,11 +4133,14 @@ function navigateTo(pageId) {
   
   // If navigating to blog, always show index (reset article view)
   if (pageId === 'blog') {
-    showBlogIndex();
+    showBlogIndex({ history: false });
   }
   
   // Update nav active state
   document.querySelectorAll('.nav-link').forEach(function(l) { l.classList.remove('active'); });
+  document.querySelectorAll('.nav-link[onclick]').forEach(function(l) {
+    if (l.getAttribute('onclick').indexOf("'" + pageId + "'") !== -1) l.classList.add('active');
+  });
   
   // Scroll to top
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -4088,7 +4151,7 @@ function navigateTo(pageId) {
   }, 100);
   
   // Update URL hash (safe for iframe/sandbox)
-  try {
+  if (options.history !== false) try {
     if (pageId === 'home') {
       history.pushState(null, '', window.location.pathname);
     } else {
@@ -4180,26 +4243,7 @@ document.querySelectorAll('a[href^="#s"]').forEach(function(a) {
 });
 
 // Handle initial hash on page load
-window.addEventListener('DOMContentLoaded', function() {
-  var hash = window.location.hash.replace('#', '');
-  if (hash && document.getElementById('page-' + hash)) {
-    navigateTo(hash);
-  }
-});
-
-// Handle browser back/forward
-window.addEventListener('popstate', function() {
-  var hash = window.location.hash.replace('#', '');
-  if (hash && document.getElementById('page-' + hash)) {
-    navigateTo(hash);
-  } else if (hash && hash.startsWith('article-')) {
-    // Direct article link
-    navigateTo('blog');
-    setTimeout(function() { showBlogArticle(hash.replace('article-', '')); }, 100);
-  } else {
-    navigateTo('home');
-  }
-});
+// Initial routes and browser history are restored by assets/projects.js.
 
 // Portfolio filter functionality
 document.querySelectorAll('.filter-btn').forEach(function(btn) {
@@ -4234,7 +4278,19 @@ document.querySelectorAll('[onclick*="showPage"]').forEach(function(el) {
 
 
 // ═══ BLOG ARTICLE NAVIGATION ═══
-function showBlogArticle(id) {
+function followBlogLink(e, id) {
+  if (e.button || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return true;
+  e.preventDefault();
+  showBlogArticle(id);
+  return false;
+}
+
+function showBlogArticle(id, options) {
+  options = options || {};
+  if (!document.getElementById('article-' + id)) return;
+  if (!document.getElementById('page-blog').classList.contains('active')) {
+    navigateTo('blog', { history: false });
+  }
   // Hide ALL blog indexes
   document.querySelectorAll('.blog-index-page, .blog-index').forEach(function(el) { el.style.display = 'none'; });
   
@@ -4245,13 +4301,20 @@ function showBlogArticle(id) {
   var article = document.getElementById('article-' + id);
   if (article) {
     article.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    article.querySelectorAll('img').forEach(function(img) { img.loading = 'eager'; });
+    var title = article.querySelector('.ah-title');
+    document.title = (title ? title.textContent.trim() + ' | ' : '') + 'tenD';
+    window.scrollTo({ top: 0, behavior: 'instant' });
     // Push state for back button
-    try { history.pushState({ article: id }, '', '#article-' + id); } catch(e) {}
+    if (options.history !== false && location.hash !== '#article-' + id) {
+      try { history.pushState({ article: id }, '', '#article-' + id); } catch(e) {}
+    }
   }
 }
 
-function showBlogIndex() {
+function showBlogIndex(options) {
+  options = options || {};
+  document.title = siteTitle;
   // Hide all articles
   document.querySelectorAll('.article-page').forEach(function(a) { a.classList.remove('active'); });
   
@@ -4260,13 +4323,15 @@ function showBlogIndex() {
   
   window.scrollTo({ top: 0, behavior: 'smooth' });
   // Update URL to blog (not article)
-  try { history.pushState(null, '', '#blog'); } catch(e) {}
+  if (options.history !== false && location.hash !== '#blog') {
+    try { history.pushState(null, '', '#blog'); } catch(e) {}
+  }
 }
 
 function showBlogVillaIndex() {
   showBlogIndex();
   // Scroll to villa section
-  var villaIndex = document.getElementById('blog-index-villa');
+  var villaIndex = document.querySelector('#blog-index [data-blog-cat="biet-thu"]');
   if (villaIndex) {
     setTimeout(function() {
       villaIndex.scrollIntoView({ behavior: 'smooth' });
@@ -4284,32 +4349,54 @@ function scrollToProject(id) {
 }
 
 // Blog tag filter
-function filterBlog(tag) {
-  document.querySelectorAll('.blog-tag').forEach(function(b){b.classList.remove('active');});
-  event.target.classList.add('active');
-  if(tag==='all'){
-    document.querySelectorAll('.blog-section').forEach(function(s){s.style.display='';});
-    document.querySelectorAll('.blog-section .card').forEach(function(c){c.style.display='';});
-    return;
-  }
-  var cats=['chung-cu','biet-thu','ve-tend'];
-  if(cats.indexOf(tag)>=0){
-    document.querySelectorAll('.blog-section').forEach(function(s){
-      s.style.display=s.getAttribute('data-blog-cat')===tag?'':'none';
+function filterBlog(tag, trigger) {
+  document.querySelectorAll('#blog-index .blog-tag').forEach(function(button) {
+    var selected = button === trigger;
+    button.classList.toggle('active', selected);
+    button.setAttribute('aria-pressed', String(selected));
+  });
+  var isCategory = ['chung-cu','biet-thu','ve-tend'].indexOf(tag) >= 0;
+  document.querySelectorAll('#blog-index .blog-section').forEach(function(section) {
+    var visibleCount = 0;
+    section.querySelectorAll('.card').forEach(function(card) {
+      var show = tag === 'all' || (isCategory
+        ? section.getAttribute('data-blog-cat') === tag
+        : card.getAttribute('data-blog-tag') === tag);
+      card.style.display = show ? '' : 'none';
+      if (show) visibleCount++;
     });
-    document.querySelectorAll('.blog-section .card').forEach(function(c){c.style.display='';});
-  }else{
-    document.querySelectorAll('.blog-section').forEach(function(s){s.style.display='';});
-    document.querySelectorAll('.blog-section .card').forEach(function(c){
-      c.style.display=c.getAttribute('data-blog-tag')===tag?'':'none';
-    });
-    document.querySelectorAll('.blog-section').forEach(function(s){
-      var vis=s.querySelectorAll('.card:not([style*="display: none"])');
-      if(vis.length===0)s.style.display='none';
-    });
-  }
+    section.style.display = visibleCount ? '' : 'none';
+  });
 }
 </script>
 
+<dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-dialog-title">
+  <div class="photo-dialog-topbar"><span>tenD · Hồ sơ dự án</span><button type="button" class="photo-close" aria-label="Đóng chi tiết dự án">×</button></div>
+  <header class="photo-project-header">
+    <p id="photo-dialog-kicker" class="photo-project-kicker"></p>
+    <h2 id="photo-dialog-title" tabindex="-1"></h2>
+    <p id="photo-dialog-location" class="photo-project-location"></p>
+  </header>
+  <img id="photo-project-cover" class="photo-project-cover" alt="" decoding="async">
+  <div class="photo-project-layout">
+    <section class="photo-project-details" aria-labelledby="photo-story-title">
+      <h3 id="photo-story-title">Không gian &amp; phương án thiết kế</h3>
+      <div class="photo-project-story"></div>
+    </section>
+    <aside class="photo-project-sidebar" aria-labelledby="photo-stats-title">
+      <h3 id="photo-stats-title">Thông số dự án</h3>
+      <dl class="photo-project-stats"></dl>
+      <button type="button" class="photo-consult">Tư vấn dự án tương tự ↗</button>
+      <a id="photo-project-link" class="photo-project-link" href="#portfolio" aria-live="polite">Sao chép đường dẫn ↗</a>
+    </aside>
+  </div>
+  <section class="photo-project-gallery" aria-labelledby="photo-gallery-title">
+    <div class="photo-gallery-heading"><h3 id="photo-gallery-title">Bộ ảnh dự án</h3><span id="photo-gallery-count"></span></div>
+    <div class="photo-dialog-grid"></div>
+  </section>
+</dialog>
+<script src="assets/js-yaml.min.js"></script>
+<script src="assets/content-cache.js?v=20261019"></script>
+<script src="assets/projects.js?v=20261019-photos"></script>
 </body>
 </html>
